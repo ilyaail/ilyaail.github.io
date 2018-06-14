@@ -1,0 +1,258 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+header
+{
+	position: relative;
+	
+	background: url("../img/bg.png") no-repeat center center;
+	webkit-background-size: cover;
+  -moz-webkit-background-size: cover;
+  -ms-webkit-background-size: cover;
+  -o-webkit-background-size: cover;
+  background-size: cover;
+  padding-bottom: 18rem;
+ 
+  padding-top: 8rem;
+
+}
+header h5{
+	color: #f7f7f7;
+	font-size: 15px;
+}
+header h2{
+	color: #e0cd25;
+}
+header button{
+	border-color: #e0cd25 !important;
+	border-radius: 0px !important;
+	color:#fff !important;
+	width: 230px;
+}	
+.demo a {
+  position: absolute;
+  
+  left: 50%;
+  z-index: 2;
+  
+  
+  
+  color: #fff;
+  
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+
+
+.demo a {
+  padding-top: 60px;
+}
+.demo a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+nav a.active{
+	border-radius: 1px !important;
+	border-color: #ffeb33 !important;
+}
+nav{
+	border-color: rgba(255, 255, 255, 10.0);
+}
+.nav-item{
+	color:#8e8e8e;
+}
+.nav-item.active{
+	color: #000;
+    border: 1px solid #ffe600;
+     padding-left: 5px;
+    
+    
+    
+    
+ 
+}
+.navbar-default{
+			border-bottom: 1px solid #ffe600;
+			
+	}
+	.opline{
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+	}
+	.opline p{
+		font-size: 15px;
+		color:#ffeb33;
+	}
+.sectio02 p{
+	 font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.bordered{
+	color: #ffe600;
+	font-size: 25px;
+	border-right: 2px solid  #ffe600;
+
+
+	
+}
+
+.line	{
+	padding-bottom: 8rem;
+}
+.n{
+	font-size: 15px;
+	font-weight: 500;
+	
+}
+.section03{
+	background-color: #ffeb33;
+	padding-top: 8rem;
+		padding-bottom: 8rem;
+}
+.section03 h3{
+	font-size: 25px;
+}
+.section03 h2{
+	font-size: 15px;
+	color: #fff;
+}
+.section04{
+	
+	padding-top: 8rem;
+		padding-bottom: 8rem;
+}
+.section04 h2{
+	font-size: 25px;
+}
+.section04 h3{
+	font-size: 15px;
+	color: #ffeb33;
+}
+.linemore a {
+  position: absolute;
+  
+  left: 50%;
+  z-index: 2;
+  
+  
+  
+  color: #fff;
+  
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.linemore a:hover {
+  opacity: .5;
+}
+
+
+.linemore a {
+  padding-top: 60px;
+}
+.linemore a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #131316;
+  border-bottom: 1px solid #131316;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+.section05{
+	
+	padding-top: 8rem;
+		padding-bottom: 8rem;
+			background-color: #424245;
+}
+.section05 h2{
+	font-size: 25px;
+}
+.section05 h3{
+	font-size: 15px;
+	color: #f2db05;
+	padding-bottom: 6rem;
+}
+.section06{
+	
+	padding-top: 8rem;
+		padding-bottom: 8rem;
+		
+}
+.section06 h2{
+	font-size: 25px;
+
+}
+.section06 h3{
+	font-size: 15px;
+	color: #f2db05;
+	padding-bottom: 6rem;
+}
+.bordered {
+	
+	border-radius: 1px !important;
+	background-color: #ffe600;
+	color:white;
+
+
+
+}
+.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+textarea.a {
+   resize: none;
+   border-radius: 1px !important;
+	background-color: #ffe600;
+	color:white;
+	width:920px;
+   
+}
+button.a{
+	background-color: #131316;
+	width:920px;
+	color: #ffe600;
+}
+footer{
+	background-color: #131316;
+	padding-bottom: 2rem;
+	padding-top: 2rem;
+}
+footer p{
+	color: #ffe600;
+	font-size: 13px;
+}
+.fa{
+	color:#fff;
+}
