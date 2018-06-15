@@ -23,7 +23,7 @@ header
   -o-webkit-background-size: cover;
   background-size: cover;
   padding-bottom: 18rem;
- 
+ 	opacity: 0.9;
   padding-top: 8rem;
 
 }
