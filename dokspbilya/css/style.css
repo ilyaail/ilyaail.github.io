@@ -564,12 +564,12 @@ html{margin:0;padding:0;}
 .page7-content .main-content1 .box-university-descr .block-top p{font-family: PTSansBold, Geneva, Arial, Helvetica, sans-serif;font-size: 18px;color: #80dffe;text-decoration: none;display: block;margin-bottom: 20px;}
 .page7-content .main-content1 .box-university-descr .block-top img{float:left;}
 .page7-content .main-content1 .box-university-descr .block-top .text-box-university span{font-family: PTSansBold, Geneva, Arial, Helvetica, sans-serif;font-size: 15px;color: #fff;text-decoration: none;}
-.page7-content .main-content1 .box-university-descr .block-top .text-box-university p{text-align-left;margin-bottom: 10px;}
+.page7-content .main-content1 .box-university-descr .block-top .text-box-university p{text-align:left;margin-bottom: 10px;}
 .page7-content .main-content1 .box-university {width: 260px;margin: 0 0 20px 0;border: none;border-top: 3px solid #ffb200;border-radius: 0 10px 10px 0;position: relative;text-align: left;overflow: hidden;padding: 30px;}
 .page7-content .main-content1{background:url(../img/bg_1_page2.jpg);background-size:cover;margin-top:0px;padding-bottom:90px;}
 .main-content1{max-width:1920px;margin:0 auto;background:url(../img/bg-content1-1920.png);min-height:2250px;margin-top:-85px;}
 .main-content3{background:url(../img/bg_1365_4.jpg);background-size:cover;background-position:top;}
-}
+
 @media only screen and (max-width:1230px){.main-menu .content>ul>li>a{width:auto;padding-left:15px;padding-right:15px;}
 .main-menu .content> ul{justify-content:space-between;}
 .main-menu .content>ul>li>a:hover,
@@ -669,6 +669,7 @@ html{margin:0;padding:0;}
 .page7-content .order-a-diplomas form .button{width:100%;}
 .page7-content .order-a-diplomas input{width:150px;padding:0 30px;}
 .page7-content .main-content1 .leaf{display:block;right:15px;}
+.page7-content .main-content1 .box-university-descr{margin:5px;}
 }
 
 @media only screen and (max-width:950px){.header2{position:relative;}
@@ -998,8 +999,7 @@ h5{display:block;font-size:0.83em;-webkit-margin-before:1.67em;-webkit-margin-af
 h6{display:block;font-size:0.67em;-webkit-margin-before:2.33em;-webkit-margin-after:2.33em;-webkit-margin-start:0px;-webkit-margin-end:0px;font-weight:bold;}
 p{display:block;-webkit-margin-before:1em;-webkit-margin-after:1em;-webkit-margin-start:0px;-webkit-margin-end:0px;}
 blockquote{display:block;-webkit-margin-before:1em;-webkit-margin-after:1em;-webkit-margin-start:40px;-webkit-margin-end:40px;}
-
-ul ul{list-style-image: url(../img/img62.png);overflow: hidden;}
+ul{list-style-image: url(../img/img62.png);overflow:hidden;}
 
 
 
