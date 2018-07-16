@@ -250,7 +250,7 @@ html{margin:0;padding:0;}
 .main-content1 .diploms{display:flex;flex-wrap:wrap;margin-bottom:9px;}
 .main-content1 .diploms_pg7{display:flex;flex-wrap:wrap;margin-bottom:9px;}
 .main-content1 .box-diplom{background:#033d6d;width:260px;border-radius:0 0 20px 20px;text-align:center;margin-bottom:15px;position:relative;border-top:3px solid #ffb700;padding-top:15px;margin-right:20px;}
-.main-content1 .box-diplom_pg7{background:#033d6d;width:260px;border-radius:0 0 20px 20px;text-align:center;margin-bottom:15px;position:relative;border-top:3px solid #ffb700;padding-top:15px;margin-right:33px;}
+.main-content1 .box-diplom_pg7{background:#033d6d;width:260px;border-radius:0 0 20px 20px;text-align:center;margin-bottom:15px;position:relative;border-top:3px solid #ffb700;padding-top:15px;margin-right:20px;}
 .main-content1 .box-diplom_pg7 .disabled{margin-right: 0;}
 .main-content1 .box-diplom .border{width:8px;position:absolute;left:50%;top:-3px;transform:rotate(360deg);}
 .main-content1 .box-diplom .diplom-ell img{width:230px;height:auto;}
