@@ -550,7 +550,7 @@ html{margin:0;padding:0;}
 .page7-content .main-content1 .container-right{padding-top:0;}
 .page7-content .main-content1 .container-left{top:35px;}
 .page7-content .block-left-form{left:15px;top:225px;}
-.page7-content .main-content1 .box-university-descr{width:97%;margin:0 0 30px 0;border:none;border-top:3px solid #ffb200;position:relative;text-align:left;overflow:hidden;}
+.page7-content .main-content1 .box-university-descr{width:100%;margin:0 0 30px 0;border:none;border-top:3px solid #ffb200;position:relative;text-align:left;overflow:hidden;}
 .bordering{width: 10px;position: absolute;left: 50%;top: -3px;transform: rotate(360deg);}
 .page7-content .main-content1 .box-university-descr .block-top{background-color: #033d6d;padding-left: 30px; padding-bottom:25px; overflow:hidden;}
 .page7-content .main-content1 .box-university-descr .diplom-ell img:last-child{margin-top:0px;}
@@ -669,7 +669,9 @@ html{margin:0;padding:0;}
 .page7-content .order-a-diplomas form .button{width:100%;}
 .page7-content .order-a-diplomas input{width:150px;padding:0 30px;}
 .page7-content .main-content1 .leaf{display:block;right:15px;}
-.page7-content .main-content1 .box-university-descr{margin:5px;}
+.page7-content .main-content1 .diploms .minus-margin{margin-right: 0px !important}
+
+
 }
 
 @media only screen and (max-width:950px){.header2{position:relative;}
@@ -752,7 +754,7 @@ html{margin:0;padding:0;}
 
 
 }
-@media only screen and (min-width:680px) and (max-width:1160px ){
+@media only screen and (min-width:680px) and (max-width:1161px ){
 .main-content1 .diploms .box-diplom:last-child {display: none;}
 .main-content1 .diploms{justify-content: center;}
 }
