@@ -978,7 +978,7 @@ html{margin:0;padding:0;}
 .page2 .footer{margin-top:-80px;}
 .page7-content .main-content1 .box-university-descr .block-bottom { border-radius: 0  0 10px 10px; background:#185583;display:flex;justify-content:space-between;padding:0 15px;padding-top:5px;}
 
-.page7-content .main-content1 .box-university-descr .block-top{background-color: #033d6d;padding-left:0 15px;  overflow:hidden;}
+.page7-content .main-content1 .box-university-descr .block-top{background-color: #033d6d;padding:0 15px;  overflow:hidden;}
 
 }
 @media only screen and (max-width:600px){.main-content1 .box-diplom{width:260px;margin:0 15px;margin-bottom:15px;}
