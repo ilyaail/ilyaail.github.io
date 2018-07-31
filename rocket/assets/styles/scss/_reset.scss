@@ -1,0 +1,41 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+
+ul,li {
+  padding: 0;
+  margin: 0;
+  display: block;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+
+div, section, form, button, span, p, a, input {
+  margin: 0;
+  padding: 0;
+}
+
+a, a:active, a:hover {
+  text-decoration: none;
+}
+
+button, button:hover, button:active, button:focus, button:visited,
+input, input:hover, input:active, input:focus, input:visited,
+select, select:hover, select:active, select:focus, select:visited,
+textarea, textarea:hover, textarea:active, textarea:focus, textarea:visited,
+a, a:hover, a:active, a:focus, a:visited {
+  outline: none;
+}

@@ -11,17 +11,18 @@
 
 </head>
 <body>
+	<div id="site-wrapper">
 		<div class="header">
 			<div class="container">
 			<nav class="navbar navbar-expand-lg fixed-top ">
-				<a href="#" class="navbar-brand">Some logo</a>
+				<a href="#targ-elem" class="navbar-brand">Some logo</a>
 				<button class="navbar-toggler" data-toggle="collapse" data-target="#collapsing" aria-controls="collapsing" aria-expanded="false" >
 					<span class="navbar-toggler-icon smoothscroll"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="collapsing">
 					<ul class="navbar-nav">
 						<li class="nav-item-active active">
-							<a href="#about" class="nav-link smoothScroll">About</a>
+							<a href="https://ilyaail.github.io/index.html#about" class="nav-link smoothScroll ">About</a>
 						</li>
 						<li class="nav-item">
 							<a href="#works" class="nav-link smoothScroll">Works</a>
@@ -62,7 +63,10 @@
 		</div>
 	
 
-		
+		<div id="targ-elem"></div>
+
+
+</div>
 
 
 
@@ -84,10 +88,23 @@
 
 
 
+<script type="text/javascript">
+	$(() => {
+	var $scroller = $('#site-wrapper');
+	$('a[href^="#"]').on('click',function (e) {
+    e.preventDefault();
 
+    var target = this.hash;
+    var $target = $(target);
 
-
-
+    $scroller.stop().animate({
+        'scrollTop': $target.offset().top - $scroller.offset().top + $scroller.scrollTop()
+    }, 900, 'swing', function () {
+        window.location.hash = target;
+    });
+  });
+})
+</script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="../ilyaail.github.io/main/js/smoothscroll.js"></script>

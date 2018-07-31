@@ -8,7 +8,17 @@ body {
 	height: 1500px;
   
 }
+html, body {
+  overflow: hidden;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
 
+#site-wrapper {
+  height: 100%;
+  overflow: auto;
+}
 h1,
 h2,
 h3,

@@ -1016,7 +1016,7 @@ html{margin:0;padding:0;}
 .page7-content .main-content1 .box-university-descr .block-top p:first-child {text-align: center;}
 .page7-content .main-content1 .box-university-descr .block-top .text-box-university p {text-align: left;}
 .page7-navigation{display: none;}
-
+}
 .alignleft{float:left;margin:0.5em 1em 0.5em 0;}
 .alignright{float:right;margin:0.5em 0 0.5em 1em;}
 .aligncenter{display:block;margin-left:auto;margin-right:auto;}
@@ -1038,3 +1038,144 @@ ul{ list-style-image: url(../img/img62.png); overflow:hidden; }
 
 
 
+/*start university*/
+
+
+.order-a-diplomas .span{color: #fff; font-family:PTSansRegular, Geneva, Arial, Helvetica, sans-serif;font-size:10px;max-width: 382px;margin: 0 auto; margin-top: 10px;margin-bottom: 25px;position: relative;text-align: left;}
+.order-a-diplomas .span a{color: #fff;}
+.order-a-diplomas .span a:hover{text-decoration: none;}
+.order-a-diplomas .span span{display: block;padding-left: 35px;}
+.body .order-a-diplomas .checkbox{width: 20px;height: 20px;position: absolute;top: 0;left: 0;}
+
+.page7-content .main-content1 .container-right .order-a-diplomas .span{max-width: 450px;}
+.order-a-diplomas{width:220px;padding:25px 20px 20px 20px;background:rgba(42,155,181,0.7);border-radius:20px 20px 0 0;border-bottom:2px solid rgba(128,210,76,0.7);}
+.order-a-diplomas p{margin:0;font-family:Gilroy, Geneva, Arial, Helvetica, sans-serif;font-size:44px;color:#fff;text-align:center;margin-bottom:14px;text-transform:uppercase;font-weight:700;font-style: normal;}
+.order-a-diplomas p span{font-size:19px;display:block;}
+.order-a-diplomas input{width:86%;padding:0 2% 0 12%;height:32px;margin-bottom:15px;outline:none;border-radius:5px;border:1px solid #c2c6c7;font-family:PTSansRegular, Geneva, Arial, Helvetica, sans-serif;font-size:13px;color:#4c4c4c;}
+.order-a-diplomas .formName_header{background:#fff url(../img/img11.png) no-repeat 5px 9px;background-size:13px 16px;}
+.order-a-diplomas .formPhone_header{background:#fff url(../img/img12.png) no-repeat 5px 5px;background-size:9px 22px;}
+.order-a-diplomas .formEmail_header{background:#fff url(../img/img13.png) no-repeat 5px 10px;background-size:16px 12px;}
+.order-a-diplomas .button div{width:180px;height:43px;background:url(../img/img10.png);background-size:cover;background-position:center;text-transform:uppercase;font-family:PTSansBold, Geneva, Arial, Helvetica, sans-serif;color:#fff;font-size:14px;text-align:center;margin:0 auto;position:relative;}
+.order-a-diplomas .button div:hover{background:url(../img/img10-1.png);background-size:cover;background-position:center;}
+.order-a-diplomas .button div span{display:inline-block;margin-top:10px;}
+.order-a-diplomas .button div input{padding:0;margin:0;width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;cursor:pointer;}
+.order-a-diplomas .document{position:relative;margin-bottom:20px;cursor:pointer;background:#fff url(../img/img15.png) no-repeat 96% 14px;background-size:12px 7px;border-radius:5px;border:1px solid #c2c6c7;}
+.order-a-diplomas .formDocument_header{background:url(../img/img14.png) no-repeat 5px 7px;background-size:14px 19px;}
+.order-a-diplomas .document .list{font-family:PTSansRegular, Geneva, Arial, Helvetica, sans-serif;font-size:10px;color:#4c4c4c;background:#fff;position:absolute;z-index:3;border-radius:5px;width:100%;display:none;border:1px solid #c2c6c7;}
+.order-a-diplomas .document input{margin:0;cursor:pointer;width:75%;border:none;border-radius:5px 0 0 5px;border-right:1px solid #c2c6c7;padding-right:0;}
+.order-a-diplomas .document .list span{display:block;padding:5px 2%;cursor:pointer;font-size:13px;}
+.main-content1 .order-a-diplomas{width:224px;background:url(../img/img22.png);background-size:cover;background-position:center;border-bottom:2px solid #ffb000;}
+.main-content1 .text .order-a-diplomas p{font-size:19px;display:block;font-family:Gilroy, Geneva, Arial, Helvetica, sans-serif;font-size:44px;color:#fff;font-weight:800;font-style: normal;}
+.main-content1 .text.order-a-diplomas p span{font-size:19px;}
+.main-content1 .diploms_pg7{display:flex;flex-wrap:wrap;margin-bottom:9px;}
+.main-content1 .box-diplom_pg7{background:#033d6d;width:260px;border-radius:0 0 20px 20px;text-align:center;margin-bottom:15px;position:relative;border-top:3px solid #ffb700;padding-top:15px;margin-right:20px;}
+.main-content1 .box-diplom_pg7 .disabled{margin-right: 0;}
+.main-content1 .box-diplom_pg7 .border{width:8px;position:absolute;left:50%;top:-3px;transform:rotate(360deg);}
+.main-content1 .box-diplom_pg7 .diplom-ell img{width:230px;height:auto;}
+.main-content1 .box-diplom_pg7 .diplom-ell{display:inline-block;}
+.main-content1 .box-diplom_pg7 .diplom-ell img:last-child{margin-top:-10px;}
+.main-content1 .box-diplom_pg7 .diplom-name{font-family:PTSansBold, Geneva, Arial, Helvetica, sans-serif;font-size:15px;color:#80dffe;width:230px;display:inline-block;margin-bottom:15px;margin-top:-9px;}
+.main-content1 .box-diplom_pg7 .diplom-name:hover{color:#ffbf00;}
+.main-content1 .box-diplom_pg7 .video{background:#185583;cursor:pointer;margin-bottom:5px;}
+.main-content1 .box-diplom_pg7 .video span{display:inline-block;padding:10px 0 10px 40px;background:url(../img/img28.png) no-repeat 0 9px;background-size:28px 20px;font-family:PTSansRegular, Geneva, Arial, Helvetica, sans-serif;font-size:15px;color:#fff;}
+.main-content1 .box-diplom_pg7 .video span:hover{color:#ffbf00;}
+.main-content1 .box-diplom_pg7 .price{margin-bottom:6px;}
+.main-content1 .box-diplom_pg7 .price span:last-child{font-family:Gilroy, Geneva, Arial, Helvetica, sans-serif;font-size:32px;color:#ffbf00;font-weight:800;font-style: normal;}
+.main-content1 .box-diplom_pg7 .price span:last-child:after{content:"руб.";font-family:PTSansRegular, Geneva, Arial, Helvetica, sans-serif;font-size:19px;color:#fff;}
+.main-content1 .box-diplom_pg7 .price span:first-child{font-family:Gilroy, Geneva, Arial, Helvetica, sans-serif;font-size:19px;color:#ffbf00;margin-right:18px;text-decoration:line-through;display:none; font-weight:800;font-style: normal;}
+.main-content1 .box-diplom_pg7 .price span:first-child:after{content:"руб.";font-family:PTSansRegular, Geneva, Arial, Helvetica, sans-serif;font-size:11px;color:#fff;}
+.main-content1 .box-diplom_pg7 .price2 span:first-child{display:inline-block;}
+.main-content1 .box-diplom_pg7 .button{margin-bottom:15px;}
+.main-content1 .box-diplom_pg7 .button div{width:180px;height:43px;background:url(../img/img10.png);background-size:cover;background-position:center;margin:0 auto;font-family:PTSansBold, Geneva, Arial, Helvetica, sans-serif;font-size:15px;color:#fff;text-transform:uppercase;cursor:pointer;text-align:center;}
+.main-content1 .box-diplom_pg7 .button div:hover{background:url(../img/img10-1.png);background-size:cover;background-position:center;}
+.main-content1 .box-diplom_pg7 .button div span{display:inline-block;margin-top:9px;}
+.page7-navigation .active{text-decoration:none;}
+.page7-navigation a{display:inline-block;color:#fff;font-family:PTSansRegular, Geneva, Arial, Helvetica, sans-serif;font-size:15px;background:url(../img/img60.png) no-repeat 100% 5px;}
+.page7-navigation a:last-child{margin:0;padding:0;background:none;}
+.page7-navigation{padding-top:35px;margin-bottom:45px;}
+.page7-navigation .active,
+.page7-navigation a:hover{text-decoration:none;}
+.page7-navigation .active{cursor: default;}
+.page7-navigation a{display:inline-block;color:#fff;font-family:PTSansRegular, Geneva, Arial, Helvetica, sans-serif;font-size:15px;margin-right:15px;padding-right:25px;background:url(../img/img60.png) no-repeat 100% 5px;padding-bottom:5px;}
+.page7-navigation span{color:#fff;font-family:PTSansRegular, Geneva, Arial, Helvetica, sans-serif;font-size:15px;}
+.h2 .page7-span1{display:inline-block;width:60px;height:1px;background:#91d7f1;margin-top:55px;}
+.h2 .page7-span2{display:inline-block;width:60px;height:1px;background:#91d7f1;margin-top:55px;}
+.page7-content .main-content1{background:url(../img/bg_1_page2.jpg);background-size:cover;margin-top:0px;padding-bottom:90px;}
+.page7 .main-h{display:none;}
+.page7 .header-block{height:auto;background:url(../img/head_1920.jpg);background-size:1920px auto;background-position:top;border-bottom:5px solid rgba(255,255,255,0.3);box-shadow:0 15px 20px rgba(0,0,0,0.5);position:relative;height:180px;}
+.page7 .main-menu2{margin-top:27px;}
+.page7 .header-block .leaf-header1{bottom:-33px;left:-108px;}
+.page7 .header-block .leaf-header2{bottom:auto;left:auto;top:33px;right:25px;}
+.page7-content .main-content1 .container-right{padding-top:0;}
+.page7-content .main-content1 .container-left{top:35px;}
+.page7-content .block-left-form{left:15px;top:225px;}
+.page7-content .main-content1 .box-university-descr{width:100%;margin:0 0 30px 0;border:none;border-top:3px solid #ffb200;position:relative;text-align:left;overflow:hidden;}
+.bordering{width: 10px;position: absolute;left: 50%;top: -3px;transform: rotate(360deg);}
+.page7-content .main-content1 .box-university-descr .block-top{background-color: #033d6d;padding-left: 30px; padding-right: 30px;padding-bottom:25px; overflow:hidden;}
+.page7-content .main-content1 .box-university-descr .diplom-ell img:last-child{margin-top:0px;}
+.page7-content .main-content1 .box-university-descr .diplom-ell{float:left;}
+.page7-content .main-content1 .box-university-descr .block-top .text-box-university{margin-left:150px;}
+.page7-content .main-content1 .box-university-descr .block-top .text-box-university a{font-family:PTSansBold, Geneva, Arial, Helvetica, sans-serif;font-size:16px;color:#80dffe;text-decoration:none;display:block;margin-bottom:20px;}
+.page7-content .main-content1 .box-university-descr .block-top .text-box-university p{margin:0;font-family:PTSansRegular, Geneva, Arial, Helvetica, sans-serif;font-size:16px;line-height:1.3;color:#fff;}
+.page7-content .main-content1 .box-university-descr .block-bottom { border-radius: 0  0 10px 10px; background:#185583;display:flex;justify-content:space-between;padding:0 30px;padding-top:5px;}
+.page7-content .main-content1 .box-university-descr .block-bottom .video{background:none;cursor:pointer;margin-bottom:0px;display:inline-block;padding:0;}
+.page7-content .main-content1 .box-university-descr .block-bottom p{font-family: PTSansRegular, Geneva, Arial, Helvetica, sans-serif;font-size: 15px;color: #fff;text-decoration: none;display: block;margin-bottom: 20px;line-height: 1.7;}
+.page7-content .main-content1 .box-university-descr .block-top p{font-family: PTSansBold, Geneva, Arial, Helvetica, sans-serif;font-size: 18px;color: #80dffe;text-decoration: none;display: block;margin-bottom: 20px;}
+.page7-content .main-content1 .box-university-descr .block-top img{float:left;}
+.page7-content .main-content1 .box-university-descr .block-top .text-box-university span{font-family: PTSansBold, Geneva, Arial, Helvetica, sans-serif;font-size: 15px;color: #fff;text-decoration: none;}
+.page7-content .main-content1 .box-university-descr .block-top .text-box-university p{text-align:left;margin-bottom: 10px;}
+.page7-content .main-content1 .box-university {width: 260px;margin: 0 0 20px 0;border: none;border-top: 3px solid #ffb200;border-radius: 0 10px 10px 0;position: relative;text-align: left;overflow: hidden;padding: 30px;}
+.page7-content .main-content1{background:url(../img/bg_1_page2.jpg);background-size:cover;margin-top:0px;padding-bottom:90px;}
+@media only screen and (max-width:1200px){
+.page7 .header-block .leaf-header2{bottom:auto;left:auto;top:25px;right:-50px;}
+@media only screen and (max-width:1100px){
+}
+.page7 .header-block .leaf-header2{bottom:auto;left:auto;top:120px;right:-50px;}
+}
+@media only screen and (max-width:1000px){
+.h2 .page7-span1, .h2 .page7-span2{display: none;}
+.page7-content .order-a-diplomas{margin:50px auto;width:450px;padding:25px 70px;}
+.page7-content .order-a-diplomas form{display:flex;justify-content:space-between;flex-wrap:wrap;}
+.page7-content .order-a-diplomas form .button{width:100%;}
+.page7-content .order-a-diplomas input{width:150px;padding:0 30px;}
+.page7-content .main-content1 .leaf{display:block;right:15px;}
+.page7-content .main-content1 .diploms .minus-margin{margin-right: 0px !important}
+}
+@media only screen and (max-width:950px){
+.page7-content .main-content1{background:url(../img/bg_760_2_page2.png);background-size:cover;margin-top:0px;padding-bottom:90px;margin-top:-105px;position:relative;}
+.page7-navigation{padding-top: 70px;margin-bottom: 35px;}
+.page7-content .main-content1{background:url(../img/bg_760_2_page2.png);background-size:cover;margin-top:0px;padding-bottom:90px;margin-top:-105px;position:relative;}
+.page7 .header-block{border-bottom:none;box-shadow:none;position:relative;height:auto;padding-bottom:110px;background:url(../img/head_1920.jpg) -700px 0;}
+.page7 .main-menu2{margin-top:16px;}
+.page7 .header-block .leaf-header2{top:206px;right:70px;}
+}
+@media only screen and (min-width:680px) and (max-width:1167px ){
+.main-content1 .diploms_pg7 .box-diplom:last-child {display: none; margin-right: 0;}
+.main-content1 .diploms_pg7{justify-content: center;}
+}
+@media only screen and (max-width:759px){
+.main-content1 .container-right .order-a-diplomas{display: none;}
+.main-content1 .order-a-diplomas{display:none;}
+.page7 .main-h{display:block;}
+.page7 .button-order-diplom320{display:none;}
+.page7 .header-block{background:url(../img/head_1920.jpg) -735px 52px;}
+.page7 .footer{margin-top:-60px;}
+.diplomer{display: none;}
+@media only screen and (min-width: 320px){.page7-content .order-a-diplomas{display:none;}
+}
+}
+@media only screen and (max-width:670px){
+.page7-content .main-content1 .box-university-descr .block-bottom { border-radius: 0  0 10px 10px; background:#185583;display:flex;justify-content:space-between;padding:0 15px;padding-top:5px;}
+.page7-content .main-content1 .box-university-descr .block-top{background-color: #033d6d;padding:0 15px;  overflow:hidden;}
+}
+@media only screen and (max-width: 589px){
+.main-content1 .box-diplom_pg7{margin-right: 0px !important;  width: 300px;}
+}
+@media only screen and (max-width:370px){
+.h2 .page7-span1, .page7-span2{display: none;}
+.page7-content .main-content1 .box-university-descr .block-top img{float: none;display: block;margin:20px auto;}
+.page7-content .main-content1 .box-university-descr .block-top .text-box-university{margin-left: 0;}
+.page7-content .main-content1 .box-university-descr .block-top p:first-child {text-align: center;}
+.page7-content .main-content1 .box-university-descr .block-top .text-box-university p {text-align: left;}
+.page7-navigation{display: none;}
+/* end university */
