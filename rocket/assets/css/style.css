@@ -1,0 +1,282 @@
+@font-face {
+  font-family: RalewayBlack;
+  src: url(../fonts/raleway/Raleway-Black.ttf); }
+
+@font-face {
+  font-family: RalewayMedium;
+  src: url(../fonts/raleway/Raleway-Medium.ttf); }
+
+@font-face {
+  font-family: RalewayLight;
+  src: url(../fonts/raleway/Raleway-Light.ttf); }
+
+@font-face {
+  font-family: RalewayThin;
+  src: url(../fonts/raleway/Raleway-Thin.ttf); }
+
+body {
+  font-family: 'RalewayLight', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+a {
+  font-family: "Arial Bold", sans-serif;
+  color: #fff; }
+
+nav.navbar-default {
+  position: absolute;
+  z-index: 1030; }
+
+.navbar-nav > a {
+  color: #fff;
+  font-size: 12px; }
+
+.carousel {
+  position: relative; }
+
+.masthead.overlay {
+  position: absolute;
+  background: #212529;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  top: 0;
+  left: 0; }
+
+.we_are.overlay {
+  position: absolute;
+  background: #212529;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  top: 0;
+  left: 0; }
+
+header .header-content {
+  padding-bottom: 8rem;
+  padding-top: 28rem; }
+
+header h1 {
+  font-size: 7rem;
+  color: white;
+  text-transform: uppercase; }
+
+header h3 {
+  font-size: 4rem;
+  color: white; }
+
+.carousel-item > img {
+  width: 100%;
+  height: 900px; }
+
+.carousel-item span {
+  font-family: 'RalewayBlack', sans-serif;
+  font-size: 72px; }
+
+.carousel-item h1 {
+  font-family: 'RalewayLight', sans-serif;
+  font-size: 72px; }
+
+.carousel-item h4 {
+  font-family: 'RalewayMedium', sans-serif;
+  font-size: 24px; }
+
+.bg_first {
+  background: url("../img/slider-bg5.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-webkit-background-size: cover;
+  -ms-webkit-background-size: cover;
+  -o-webkit-background-size: cover;
+  background-size: cover;
+  padding-bottom: 25rem;
+  padding-top: 12rem; }
+
+.bg_second {
+  background: url("../img/slider-bg2.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-webkit-background-size: cover;
+  -ms-webkit-background-size: cover;
+  -o-webkit-background-size: cover;
+  background-size: cover;
+  padding-bottom: 25rem;
+  padding-top: 12rem; }
+
+.bg_third {
+  background: url("../img/slider-bg3.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-webkit-background-size: cover;
+  -ms-webkit-background-size: cover;
+  -o-webkit-background-size: cover;
+  background-size: cover;
+  padding-bottom: 25rem;
+  padding-top: 12rem; }
+
+.we_are {
+  background: url("../img/bg_weare.png") no-repeat center center;
+  background-size: 50%;
+  -webkit-background-size: cover;
+  -moz-webkit-background-size: cover;
+  -ms-webkit-background-size: cover;
+  -o-webkit-background-size: cover;
+  background-size: cover;
+  min-height: 520px;
+  height: 100%; }
+  .we_are h1 {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-family: 'RalewayBlack', sans-serif; }
+  .we_are p {
+    padding-bottom: 100px; }
+  .we_are hr {
+    width: 100px;
+    height: 1px;
+    background-color: #e5e5e5; }
+
+.corp_cult {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+  .corp_cult h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'RalewayBlack', sans-serif; }
+  .corp_cult p {
+    font-size: 22px;
+    color: #818181; }
+  .corp_cult .p_mr {
+    font-size: 16px; }
+  .corp_cult hr {
+    width: 100px;
+    height: 1px;
+    background-color: #e5e5e5; }
+  .corp_cult img {
+    float: left; }
+  .corp_cult .carousel-item h1 {
+    font-family: 'RalewayThin', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  .corp_cult .text-bold {
+    font-weight: 900; }
+
+.mr {
+  margin-right: 35px; }
+
+.p_mr {
+  margin-left: 70px; }
+
+.spacing {
+  margin-bottom: 70px;
+  margin-top: 30px; }
+
+.margin_row {
+  margin-bottom: 30px; }
+
+.site_evaluation {
+  background: url("../img/evaluation.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-webkit-background-size: cover;
+  -ms-webkit-background-size: cover;
+  -o-webkit-background-size: cover;
+  background-size: cover;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+  .site_evaluation h1 {
+    padding-top: 100px;
+    margin-bottom: 30px; }
+  .site_evaluation hr {
+    width: 100px;
+    height: 1px;
+    background-color: #e5e5e5; }
+
+input.form-control {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: solid 1px #fff;
+  border-radius: 0px; }
+
+h3 {
+  font-size: 22px !important; }
+
+form button {
+  background-color: #fffefd; }
+
+form label {
+  color: #fff;
+  margin-bottom: 25px;
+  margin-left: 15px; }
+
+form .form-control::-webkit-input-placeholder {
+  color: #fff; }
+
+form .form-control:-ms-input-placeholder {
+  color: #fff; }
+
+form .form-control::-ms-input-placeholder {
+  color: #fff; }
+
+form .form-control::placeholder {
+  color: #fff; }
+
+form .first {
+  max-width: 550px;
+  width: 100%; }
+
+form .second {
+  max-width: 550px;
+  width: 260px !important; }
+
+.first input {
+  height: 45px !important; }
+
+.second input {
+  width: 260px !important;
+  margin-right: 20px;
+  height: 45px !important; }
+
+.input-group-btn .third {
+  width: 260px;
+  background-color: #fffefd;
+  color: #898989;
+  border-radius: 0px;
+  border-color: none;
+  height: 45px; }
+
+.about_us {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  -webkit-box-pack: around;
+  -ms-flex-pack: around;
+  justify-content: around; }
+  .about_us h1 {
+    margin-bottom: 20px;
+    font-size: 22px; }
+  .about_us hr {
+    width: 100px;
+    height: 1px;
+    background-color: #e5e5e5; }
+  .about_us h2 {
+    margin-bottom: 100px; }
+
+.about_us p {
+  text-align: center;
+  font-size: 12px; }
+
+.about_us .namer {
+  font-size: 22px;
+  color: #9d9d9d; }
+
+.images {
+  text-align: center; }
+  .images img {
+    padding-bottom: 10px; }
+  .images h1 {
+    font-family: 'RalewayMedium', sans-serif;
+    font-size: 22px; }
+  .images p {
+    font-family: 'RalewayThin', sans-serif;
+    color: #000; }
+
+.about_us .about_heading {
+  font-size: 40px;
+  font-family: 'RalewayBlack', sans-serif; }
+
+.we_are .namer {
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+  font-family: 'RalewayLight', sans-serif; }

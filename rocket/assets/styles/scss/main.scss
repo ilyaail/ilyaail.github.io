@@ -1,0 +1,187 @@
+
+
+@mixin strip($width, $height, $background-color){
+   hr{
+    width: $width;    
+    height: $height;
+    background-color: $background-color;
+  }
+ 
+}
+//variables
+
+
+$white: #ffffff;
+//variables end
+//---------------------------------------------------------------------------------------
+
+//ui kit
+
+
+
+
+
+//.relative {
+//  position: relative;
+//}
+
+
+//ui kit end
+//---------------------------------------------------------------------------------------
+
+//header styles
+
+
+.header {
+  height: 100vh;
+
+  .container-first {
+    height: 100vh;
+    width: 100%;
+    z-index: 12;
+    //background: url('../images/temp/bg-1.jpg');
+    //background-repeat: no-repeat;
+    //-webkit-background-size: cover;
+    //background-size: cover;
+    padding-top: 3.167em;
+
+    .brand {
+      color: $white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      h1 {
+        font-size: 6em;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-top: 1.7rem;
+        & > span {
+          font-weight: 900;
+        }
+      }
+      & > span {
+        font-size: 2em;
+        font-weight: 500;
+        margin-top: 1.667rem;
+      }
+    }
+    .down {
+      position: absolute;
+      left: 50%;
+      //top: 83.5%;
+      bottom: 7.1%;
+      span {
+        color: $white;
+      }
+      .scroll {
+        position: relative;
+        width: 26px;
+        height: 26px;
+        margin-top: 2.250em;
+        border: 1px solid $white;
+        border-radius: 50%;
+        img {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+        }
+      }
+    }
+    .arrows {
+      button {
+        position: absolute;
+        top: 50%;
+        z-index: 13;
+        opacity: .7;
+        background: none;
+        border: none;
+        cursor: pointer;
+        width: 150px;
+        height: 150px;
+        transition: all .3s ease;
+      }
+      .arrow-next {
+        right: 0;
+        &:hover {
+          right: -5px;
+        }
+      }
+      .arrow-prev {
+        left: 0;
+        &:hover {
+          left: -5px;
+        }
+      }
+    }
+  }
+}
+
+// Slider
+.welcome {
+  .slider {
+    height: 100vh;
+    &.slick-dotted {
+      margin: 0;
+    }
+    .slider-bg {
+      height: 100vh;
+      width: 100%;
+      position: relative;
+      &.first {
+        background: url("../images/temp/bg-1.jpg") no-repeat center / cover;
+      }
+      &.second {
+        background: url("../images/temp/bg-2.jpg") no-repeat center / cover;
+      }
+      &.third {
+        background: url("../images/temp/bg-3.jpg") no-repeat center / cover;
+      }
+    }
+    .slick-slide {
+      height: 100%;
+    }
+    .slick-arrow {
+      position: absolute;
+      opacity: 0;
+    }
+    .slick-next {
+      top: 0;
+    }
+  }
+}
+
+
+
+
+//header styles end
+//---------------------------------------------------------------------------------------
+
+.about_us{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  justify-content:around;
+
+h1{
+  margin-bottom: 20px;
+  font-size: 22px;
+
+
+} 
+}
+
+@include strip(100px, 1px, #e5e5e5) ;
+
+.images{
+  text-align: center;
+  img{
+    padding-bottom: 10px;
+  }
+  h1{
+    font-family: 'RalewayMedium', sans-serif;
+    font-size: 22px;
+  }
+  p{
+    font-family: 'RalewayThin', sans-serif;
+    color:#000 ;
+  }
+}
