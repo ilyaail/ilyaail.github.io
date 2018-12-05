@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<title>Ремонт и диагностика АКПП от профессионалов.</title>
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+	<div id="joomly-callback" style="">
+		<div class="joomly-callback-caption">
+			<div id="joomly-callback-cap"><h4 class="text-center">Заказ обратного звонка</h4></div><div class="joomly-callback-closer"><i id="joomly-callback-close" class="fa fa-close fa-1x"></i></div>
+		</div>
+		<div class="joomly-callback-body">
+			<form id="reg_form" class="submission style" style="text/css" action="#index.php?option=com_joomly_callback" method="post" enctype="multipart/form-data">
+				<div class="form  form-center">
+					<div class="">
+						<p class="callback-text-center">Оставьте свой телефон и мы перезвоним в удобное для вас время!</p>
+													<div class="joomly-callback-div">
+								<input type="text" placeholder="Имя*" name="name" id="name-joomly-callback" required="" value="">
+							</div>
+							
+						<div class="joomly-callback-div">
+							<input type="tel" pattern="(\+?\d[- .()]*){5,13}" placeholder="Телефон*" name="phone" id="phone-joomly-callback" required="" value="">
+						</div>
+						<div class="joomly-callback-div" style="display:none">
+							<label style="display:inline-block;">Время звонка</label>
+							<div style="display:inline-block;">
+								<select id="time-today" name="time-today">
+									  <option value="Сейчас">Сейчас</option>
+																	<option value="13:30">13:30</option>	
+																	<option value="14:00">14:00</option>	
+																	<option value="14:30">14:30</option>	
+																	<option value="15:00">15:00</option>	
+																	<option value="15:30">15:30</option>	
+																	<option value="16:00">16:00</option>	
+																	<option value="16:30">16:30</option>	
+																	<option value="17:00">17:00</option>	
+																	<option value="17:30">17:30</option>	
+																	<option value="18:00">18:00</option>	
+																	<option value="18:30">18:30</option>	
+																	<option value="19:00">19:00</option>	
+																	<option value="19:30">19:30</option>	
+																	<option value="20:00">20:00</option>	
+																</select>
+								<select id="time-any" name="time-any" style="display:none;">
+																	<option value="10:00">10:00</option>	
+																	<option value="10:30">10:30</option>	
+																	<option value="11:00">11:00</option>	
+																	<option value="11:30">11:30</option>	
+																	<option value="12:00">12:00</option>	
+																	<option value="12:30">12:30</option>	
+																	<option value="13:00">13:00</option>	
+																	<option value="13:30">13:30</option>	
+																	<option value="14:00">14:00</option>	
+																	<option value="14:30">14:30</option>	
+																	<option value="15:00">15:00</option>	
+																	<option value="15:30">15:30</option>	
+																	<option value="16:00">16:00</option>	
+																	<option value="16:30">16:30</option>	
+																	<option value="17:00">17:00</option>	
+																	<option value="17:30">17:30</option>	
+																	<option value="18:00">18:00</option>	
+																	<option value="18:30">18:30</option>	
+																	<option value="19:00">19:00</option>	
+																	<option value="19:30">19:30</option>	
+																	<option value="20:00">20:00</option>	
+																</select>
+								<select id="day" name="day">
+									  <option value="Сегодня">Сегодня</option>
+																	<option value="Понедельник">Понедельник</option>
+																			<option value="Среда">Среда</option>
+																			<option value="Четверг">Четверг</option>
+																			<option value="Пятница">Пятница</option>
+																			<option value="Суббота">Суббота</option>
+																			<option value="Воскресенье">Воскресенье</option>
+</select>
+							</div>	
+						</div>	
+							
+						<input type="hidden" name="page" value="/">
+						<input type="hidden" name="created_at" value="2018-12-04 13:21:46">	
+						<input type="hidden" name="title_name" value="Заказ обратного звонка">		
+					</div>
+				</div>
+				<div>
+					<button class="button-joomly-callback-lightbox" type="submit" value="save" id="button-joomly-callback-lightbox">Отправить</button>
+				</div>
+					<input type="hidden" name="option" value="com_joomlycallback">
+					<input type="hidden" name="task" value="add.save">
+					<input type="hidden" name="c4feaecc726396c56ec61d56ae396d2c" value="1">			</form>
+			<!--div class="tel"><a href=http://joomly.ru/modul-obratnogo-zvonka class=fontsize8>Joomly</a></div-->
+		</div>	
+	</div>
+	<div id="logo" class="logo">
+		<div class="wrapper">
+		<div class="container">
+			<div class="row">
+			<div class="col-lg-6">
+				<div class="left-sec">
+				<a href="/" clas="styling">
+					<img src="assets/images/header-logo.png" alt="logo" class="">
+					<p class="display-style">
+						<span>Автомат транс сервис</span><br>
+						Aвтосервис по ремонту акпп в москве
+					</p>
+				</a>
+				</div>
+				</div>
+				<div class="col-lg-6">
+			 <div class="right-sec">
+			 		<p>
+			 			<span class="topPhone"><b>8-499-394-14-22</b></span><br>
+						<span class="joomly-callback">Обратный звонок</span>
+					</p>
+					<div class="search mod_search63">
+	<form action="/" method="post" class="form-inline">
+		 <input name="searchword" id="mod-search-searchword" maxlength="200" class="inputbox search-query" type="search" size="20" placeholder="Поиск...">		<input type="hidden" name="task" value="search">
+		<input type="hidden" name="option" value="com_search">
+		<input type="hidden" name="Itemid" value="435">
+	</form>
+</div>
+
+					<ul class="nostyletype">
+						<li><a href="/index.php">Главная</a></li>
+						<li><a href="/main/o-kompanii">О компании</a></li>
+						<li><a href="/main/kontakty">Контакты</a></li>
+					</ul>
+
+				</div>
+</div>
+			</div>
+		</div>
+</div>
+</div>
+<div id="header-menu">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 left-side"  onclick="stateChange()">
+
+				<p class="text-right">Выберите ваш автомобиль<img src="assets/images/menu-open-icon.png" alt="" class="img-active"></p>
+				
+			</div>
+			<div id="menu-tab1" class="menu-tab">
+				<div class="wrapper">
+					<div>
+						<img src="assets/images/acura.png" alt="">
+						<!-- <a href="/acura/remont-akpp-acura-mdx">Acura</a> -->
+						<!-- <a href="/acura">Acura</a> -->
+						<a href="/acura">Acura</a>
+					</div><!-- 
+				 --><div>
+						<img src="assets/images/audi.png" alt="">
+						<!--<a href="/audi/remont-akpp-audi-a1">Audi</a>-->
+						<a href="/audi">Audi</a>
+					</div><!-- 
+				 --><div>
+						<img src="assets/images/bentley.png" alt="">
+						<a href="/bentley">Bentley</a>
+					</div><!-- 
+				 --><div>
+						<img src="assets/images/bmw.png" alt="">
+						<a href="/bmw">BMW</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/cadillac.png" alt="">
+						<a href="/cadillac">Cadillac</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/chevrolet.png" alt="">
+						<a href="/chevrolet">Chevrolet</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/chrysler.png" alt="">
+						<a href="/chrysler">Chrysler</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/citroen.png" alt="">
+						<a href="/citroen">Citroen</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/daewoo.png" alt="">
+						<a href="/daewoo">Daewoo</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/dodge.png" alt="">
+						<a href="/dodge">Dodge</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/fiat.png" alt="">
+						<a href="/fiat">Fiat</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/ford.png" alt="">
+						<a href="/ford">Ford</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/honda.png" alt="">
+						<a href="/honda">Honda</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/hyundai.png" alt="">
+						<a href="/hyundai">Hyundai</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/infiniti.png" alt="">
+						<a href="/infiniti">Infiniti</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/jaguar.png" alt="">
+						<a href="/jaguar">Jaguar</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/jeep.png" alt="">
+						<a href="/jeep">Jeep</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/kia.png" alt="">
+						<a href="/kia">KIA</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/land-rover.png" alt="">
+						<a href="/land-rover">Land Rover</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/lexus.png" alt="">
+						<a href="/lexus">Lexus</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/mazda.png" alt="">
+						<a href="/mazda">Mazda</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/mercedes.png" alt="">
+						<a href="/mercedes">Mercedes</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/mitsubishi.png" alt="">
+						<a href="/mitsubishi">Mitsubishi</a>
+					</div><!-- 
+				 --><div>
+						<img src="assets/images/nissan.png" alt="">
+						<a href="/nissan">Nissan</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/opel.png" alt="">
+						<a href="/opel">Opel</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/peugeot.png" alt="">
+						<a href="/peugeot">Peugeot</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/porsche.png" alt="">
+						<a href="/porsche">Porsche</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/renault.png" alt="">
+						<a href="/renault">Renault</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/saab.png" alt="">
+						<a href="/saab">Saab</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/skoda.png" alt="">
+						<a href="/skoda">Skoda</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/ssangyong.png" alt="">
+						<a href="/ssangyong">Ssang Yong</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/subaru.png" alt="">
+						<a href="/subaru">Subaru</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/suzuki.png" alt="">
+						<a href="/suzuki">Suzuki</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/toyota.png" alt="">
+						<a href="/toyota">Toyota</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/volkswagen.png" alt="">
+						<a href="/volkswagen">Volkswagen</a>
+					</div><!-- 
+				 --><div>
+						<img src="assets/images/volvo.png" alt="">
+						<a href="/volvo">Volvo</a>
+					</div>
+				</div>
+				<div class="menu-tab-close menu-tab-close-black"></div>
+			</div>
+			<div class="col-lg-6 right-side" onclick="stateChange2()">
+				<p>Наши услуги<img src="assets/images/menu-open-icon.png" alt="" class="img-fluid img2-active"></p>
+					
+			</div>
+			<div id="menu-tab2" class="menu-tab">
+				<div class="wrapper">
+					<a href="/services/diagnostika-akpp">Диагностика АКПП</a><br>
+					<a href="/services/remont-akpp-i-variatorov-v-moskve">Ремонт АКПП</a><br>
+					<a href="/services/zamena-akpp">Замена АКПП</a><br>
+					<a href="/services/kupit-novyu-akpp">Новые АКПП</a><br>
+					<a href="/services/vosstanovlennye-akpp">Восстановленные АКПП</a><br>
+					<a href="/services/okhlazhdenie-akpp">Охлаждение АКПП</a><br>
+					<a href="/services/zamena-masla-v-akpp">Замена масла в АКПП</a><br>
+					<a href="/services/remont-gidrobloka-akpp">Ремонт гидроблока АКПП</a><br>
+					<a href="/services/remont-dsg-korobok">Ремонт DSG коробок</a><br>
+					<a href="/services/remont-dct-korobok">Ремонт DCT коробок</a><br>
+					<a href="/services/remont-variatora">Ремонт вариатора</a><br>
+                    <a href="/services/remont-mkpp">Ремонт МКПП</a><br>
+                    <a href="/services/remont-razdat">Ремонт раздаточных коробок</a><br>
+                    <a href="/services/vykup-neispravnykh-akpp">Выкуп неисправных АКПП</a><br>
+				</div>
+				<div class="menu-tab-close menu-tab-close-white"></div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+
+
+
+
+<div class="content">
+	<div class="title1">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7">
+					<div class="wrapper">
+					<p class="styling-title1">
+        Автомат транс сервис <br>
+        <span class="around-border">автосервис нового поколения</span></p>
+    </div>	
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="container-fluid">
+			<div class="why">
+			<div class="row">
+				<div class="col-lg-6 right">
+					<p class="listtitle">
+						Почему у нас дешевле?
+					</p>
+					<div class="floating">
+					<ol class="left-ol">
+          <li><span>Мы не платим аренду, все в собственности</span></li>
+          <li><span>У нас нет наценки на запчасти</span></li>
+          <li><span>Все заменяемые запчасти согласовываются с клиентом</span></li>
+          <li><span>Наши наработанные годами<br>скидки у поставщиков = скидкам клиента</span></li>
+        </ol>
+        
+        <br>
+        <div class="bottom_bordering">ВСЕ ЭТО ПОЗВОЛЯЕТ ЭКОНОМИТЬ НАШИМ <br>
+КЛИЕНТАМ ДО 20% ОТ СТОИМОСТИ РЕМОНТА.</div>
+</div>
+				</div>
+				<div class="col-lg-6 right-part">
+					<p class="listtitle2">
+						ПОЧЕМУ У НАС <br>
+КАЧЕСТВЕННЫЙ РЕМОНТ ?
+					</p>
+					<ol class="right-ol">
+        <li><span>Опыт работы наших сотрудников более 10 лет</span></li>
+        <li><span>Используем только качественные запчасти</span></li>
+        <li><span>Гарантия на ремонт до 12 месяцев</span></li>
+        <li><span>Диагностическое оборудование дилерского уровня</span></li>
+      </ol>
+      <div class="bottom_bordering2">Мы уже давно не мастера по ремонту<br>АКПП - Мы Эксперты своего дела.</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	
+</div>
+
+
+<div class="banner">
+  
+      <img src="assets/images/banner1.png" alt="" class="">
+    
+  </div>
+
+<div class="works">
+	<div class="wrapper">
+		<h2>Порядок и качество выполняемых работ</h2>
+		<div class="active">
+        <h3>1 этап - диагностика</h3>
+        <p>Как только автомобиль приезжает к нам, наши специалисты незамедлительно проводят квалифицированную<br>диагностику, что бы наиболее точно определить неисправность трансмиссии.</p>
+      </div>
+      <div class="">
+        <h3>2 этап - предварительное согласование</h3>
+        <p>На основе данных диагностики, мастер объясняет Вам порядок необходимых работ, объявляет сроки ремонта<br>и их предварительную стоимость (все оформляется в заявке на ремонт), которая не может быть<br> выше заявленной на любом этапе ремонта, даже если стоимость окажется выше, значит<br> мы провели диагностику не качественно и сервис Вам компенсирует разницу за свой счёт.</p>
+      </div>
+      <div>
+        <h3>3 этап - снятие и дефектовка АКПП</h3>
+        <p>Как только оформлена заявка на ремонт, приступаем к снятию АКПП, после чего агрегат попадает на дефектовку<br> к квалифицированному мастеру, тут и начинается самый сложный и кропотливый процесс на котором, <br>Вы можете спокойно присутствовать, да бы убедиться в нашей добросовестности и профессионализме.</p>
+      </div>
+      <div>
+        <h3>4 этап - составление заказ-наряда</h3>
+        <p>На основе проведенной диагностики и дефектовки, составляем заказ-наряд, в котором будут указаны<br> все проводимые работы и заменяемые запасные части с указанием всех цен <br>(общая цена не может быть выше предварительно согласованной и обозначенной в предварительной заявке). <br>Как только вы подписали заказ-наряд и внесли предоплату за запасные части, мы приступаем к ремонту АКПП.</p>
+      </div>
+      <div>
+        <h3>5 этап - Ремонт</h3>
+        <p>В соответствии с согласованным с Вами заказ-нарядом, мы восстанавливаем гидротрансформатор, выполняем<br> сборку АКПП, чистим, моем при необходимости ремонтируем гидроблок, после сборки<br> проверяем все согласно технологической карты, после чего АКПП устанавливаем на автомобиль.</p>
+      </div>
+      <div>
+        <h3>6 этап - выходная диагностика</h3>
+        <p>Проводиться пробная поездка на автомобиле с целью выявления недостатков или же отсутствия их,<br> после поездки обязательно повторная компьютерная диагностика и визуальный осмотр на отсутствие течи масла.<br> При необходимости мы проводим адаптацию и обучение АКПП с помощью специального оборудования.</p>
+      </div>
+      <div>
+        <h3>7 этап - Сдача исправного Автомобиля</h3>
+        <p>Как только мы лично убедились в исправности вашей коробки передач, автомобиль отправляется на мойку,<br> а мастер бежит сообщать Вам хорошую новость, после чего Вы прибыв на наш специализированный сервис,<br> можете лично убедиться в качестве работы вашей коробки передач и забрать Ваш автомобиль.</p>
+      </div>
+    </div>
+	</div>
+</div>
+
+<div class="master">
+	<div class="wrapper">
+      <h1 align="center">Ремонт АКПП качественно и с гарантией</h1>
+      <br>
+      <p>"Автомат Транс Сервис" специализируется на ремонте АКПП, вариаторов и обслуживании автомобилей иностранного производства с автоматической коробкой переключения передач. Мы предоставляем полный спектр услуг в данном направлении: ремонт автоматической коробки переключения передач в Москве - любой сложности, диагностика, замена масла, ремонт гидротрансформатора, диагностика и ремонт электронных систем управления трансмиссий, восстановление АКПП после неквалифицированного ремонта, ремонт вариаторов, роботов, DSG, DCT, все виды  слесарных работ.</p>
+      <br>
+      <p>На нашем автосервисе при ремонте и обслуживании АКПП строго соблюдаются технологии, разработанные фирмами-производителями, применяются только рекомендованные запасные части, ремкомплекты и расходные материалы. Наш опыт, использование специального инструмента, высококачественных трансмиссионных масел и высокий профессионализм сотрудников фирмы позволяет устанавливать большие сроки гарантии.</p>
+      <br>
+      <p>Кроме того, наш автосервис принимает автомобили с поломками АКПП, возникшими после неквалифицированного или неудачного проведения ремонтных работ в других автосервисах. Мы также работаем с регионами, принимаем в ремонт уже снятые агрегаты.</p>
+      <br>
+      <p>В нашем специализированном сервисе работают профессионалы, постоянно совершенствующие свои навыки. Они заинтересованы в предоставлении качественных услуг и работают для достижения результата. Специалисты нашего автосервиса, являющиеся одними из самых лучших в Москве по ремонту АКПП, с удовольствием предоставят Вам консультации, дадут хороший совет и помогут разобраться во всех тонкостях эксплуатации автоматической коробки передач Вашего авто. Многолетний опыт, качество и стоимость предоставляемых услуг нашим автосервисом Вас приятно удивит.</p>
+    </div>
+</div>
+<div class="call-btn">
+					
+	<div>
+		<button class="joomly-callback" type="submit" value="save" id="button-joomly-callback-form">Заказать звонок</button>
+	</div>
+	
+
+
+
+
+
+				</div>
+				<div id="footer">
+					<div class="footer-menu">
+						<div class="container" >
+							<div class="row">
+							<div class="col-lg-8">
+								<a href="/">
+					<img src="assets/images/footer-logo.png" alt="logo">
+					<p>
+						<span>Автомат транс сервис</span><br>
+						Автосервис по ремонту акпп в москве
+					</p>
+				</a>
+							</div>
+							<div class="col-lg-4">
+								<div class="row"><div class="col-lg-6">
+								<div class="list">
+									<ul>
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+								</div>
+								</div>
+								<div class="col-lg-6 text-center">
+								<div class="bottomaddress">
+									
+					<span class="bottomPhone">8-499-394-14-22</span><br>
+					<span class="bottomPhone">8-965-119-40-03</span>
+					<span class="joomly-callback special">Обратный звонок</span><br>
+					<span>
+						<span>г. Москва</span>,<br>
+						<span>Кольская 12, стр. 5</span><br>
+					</span>
+					<span>с 09.00 до 21:00</span>
+					
+				</div>
+				</div>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+	$(".left-side").click(function(){
+  $(".img-active").toggleClass("active");
+});
+
+</script>
+<script>
+	$(".right-side").click(function(){
+  $(".img2-active").toggleClass("active");
+});
+
+</script>
+<script>
+	$(".menu-tab-close").click(function(){
+		$(".img-active").toggleClass("active");
+	});
+</script>
+
+<script>
+	
+function stateChange() {
+  var obj = document.getElementById('menu-tab1');
+ 
+  obj.style.display = 
+      (obj.style.display == "block" ?
+      "none" : "block");
+
+}
+
+
+
+
+</script>
+<script>
+	
+function stateChange2() {
+  var obj = document.getElementById('menu-tab2');
+ 
+  obj.style.display = 
+      (obj.style.display == "block" ?
+      "none" : "block");
+
+}
+
+
+
+
+</script>
+<script>
+	$('.menu-tab-close').click(function(){
+
+	$(this).closest('.menu-tab').hide();
+});
+</script>
+
+<script>
+	$(".works div div").click(function(e) {
+  e.preventDefault();
+  $(".works div div").removeClass('active');
+  $(this).addClass('active');
+})
+</script>
+
+<script>
+window.addEventListener('load', lightbox, false);
+function lightbox(){			
+	var opener1 = Array.prototype.slice.call(document.getElementsByClassName("joomly-callback"));
+	var opener2 = Array.prototype.slice.call((document.getElementsByClassName("joomly-callback")));
+	var opener = opener1.concat(opener2);
+	for (var i=0; i < opener.length; i++) {
+
+		opener[i].onclick = function(){
+			
+			var lightbox = document.getElementById("joomly-callback"),
+				dimmer = document.createElement("div"),
+				close = document.getElementById("joomly-callback-close");
+			
+			dimmer.className = 'dimmer';
+			
+			dimmer.onclick = function(){
+				lightbox.parentNode.removeChild(dimmer);			
+				lightbox.style.visibility = 'hidden';
+			};
+			
+			close.onclick = function(){
+				lightbox.parentNode.removeChild(dimmer);			
+				lightbox.style.visibility = 'hidden';
+			};
+	
+			document.body.appendChild(dimmer);
+			document.body.appendChild(lightbox);
+			var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+			lightbox.style.visibility = 'visible';
+			if (window.innerHeight > lightbox.offsetHeight )
+			{
+				lightbox.style.top = scrollTop + (window.innerHeight- lightbox.offsetHeight)/2 + 'px';
+			} else
+			{
+				lightbox.style.top = scrollTop + 10 + 'px';
+			}
+			if (window.innerWidth>400){
+				lightbox.style.width = '400px';
+				lightbox.style.left = (window.innerWidth - lightbox.offsetWidth)/2 + 'px';
+			} else {
+				lightbox.style.width = (window.innerWidth - 70) + 'px';
+				lightbox.style.left = (window.innerWidth - lightbox.offsetWidth)/2 + 'px';
+			}	
+			
+			return false;
+		}
+	};	
+
+	var box_day=document.getElementById("day");
+	var box_time_today=document.getElementById("time-today");
+	var box_time_any=document.getElementById("time-any");
+	box_day.onchange=function (){
+		if ((box_day.value == 'Сегодня')||(box_day.value == 'Today')){
+			box_time_today.style.display = "inline-block";
+			box_time_any.style.display = "none";
+		} else{
+			box_time_today.style.display = "none";
+			box_time_any.style.display = "inline-block";
+		}	
+	};
+	
+	var flag = 0;
+	if (flag == 1){
+		var lightbox = document.getElementById("special-alert"),
+		dimmer = document.createElement("div"),
+		close = document.getElementById("callback-alert-close");
+		
+		dimmer.className = 'dimmer';
+		
+		dimmer.onclick = function(){
+			lightbox.parentNode.removeChild(dimmer);			
+			lightbox.style.visibility = 'hidden';
+		};
+		
+		close.onclick = function(){
+			lightbox.parentNode.removeChild(dimmer);			
+			lightbox.style.visibility = 'hidden';
+		};
+			
+		document.body.appendChild(dimmer);
+		document.body.appendChild(lightbox);
+		var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+		
+		lightbox.style.visibility = 'visible';
+		if (window.innerHeight > lightbox.offsetHeight )
+		{
+			lightbox.style.top = scrollTop + (window.innerHeight- lightbox.offsetHeight)/2 + 'px';
+		} else
+		{
+			lightbox.style.top = scrollTop + 10 + 'px';
+		}
+		
+		if (window.innerWidth>400){
+			lightbox.style.width = '400px';
+			lightbox.style.left = (window.innerWidth - lightbox.offsetWidth)/2 + 'px';
+		} else {
+			lightbox.style.width = (window.innerWidth - 70) + 'px';
+			lightbox.style.left = (window.innerWidth - lightbox.offsetWidth)/2 + 'px';
+		}	
+		
+		setTimeout(function(){remove_alert()}, 3000);
+		
+		function remove_alert()
+		{
+			lightbox.parentNode.removeChild(dimmer);			
+			lightbox.style.visibility = 'hidden';
+		}
+	}	
+}
+</script>
+</body>
+</html>
