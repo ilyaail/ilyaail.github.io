@@ -6,6 +6,15 @@
     font-family: engravers; /* Имя шрифта */
     src: url(../fonts/engr.ttf); /* Путь к файлу со шрифтом */
    }
+   @font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff")
+      format("woff"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.svg#icomoon")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,12 +55,10 @@ h6 {
    }
 
 a {
+  color: #08c;
+  text-decoration: none;
   }
-  h1{
-  	color:#fff !important;
-  	font-size: 18px !important;
-  	font-style: italic;
-  }
+
   h2{
     font-size: 32px;
     letter-spacing: -1px;
@@ -720,6 +727,129 @@ p.callback-text-center {
       padding-top: 40px;
       padding-bottom: 40px;
 }
+.breadcrumb {
+    padding: 8px 15px;
+    margin: 0 0 18px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+.breadcrumb>li {
+    display: inline-block;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 13px;
+}
+.breadcrumb>.active {
+    color: #999;
+}
+.breadcrumb>li>.divider {
+    padding: 0 5px;
+    color: #ccc;
+}
+.icon-location:before {
+  content: "\e947";
+}
+[class*=" icon-"]:before, [class^=icon-]:before {
+
+    font-family: icomoon;
+    font-style: normal;
+    speak: none;
+}
+[class*=" icon-"], [class^=icon-] {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+}
+.breadcrumb li:first-child span.icon-location {
+    padding: 0;
+}
+.navigation {
+    width: 940px;
+    margin: 0 auto;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.breadcrumb .pathway {
+    color: #af9466;
+}
+
+.article h1{
+      font-size: 26px;
+    line-height: 28px;
+    color:#000!important;
+    font-weight: 400;
+}
+
+.article>.wrapper>p {
+    font-family: franklin;
+    font-size: 15px;
+    line-height: 24px;
+    position: relative;
+    column-count: 2;
+    column-gap: 30px;
+}
+.article {
+    padding: 80px 0 70px;
+}
+.other_banner{
+  width: 100%;
+}
+#coop{
+  text-align: center;
+}
+#coop>h2 {
+    color: #777 !important;
+    padding-top: 76px;
+    margin-bottom: 85px !important;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+#coop>img {
+    margin: 0 25px 110px;
+}
+
+.information h2 {
+    padding-top: 90px;
+    margin-bottom: 72px !important;
+    color: #000 !important;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 22px !important;
+}
+
+.information {
+    background-color: rgba(0,0,0,.05);
+    padding-bottom: 85px;
+}
+
+.information p {
+    font-size: 15px !important;
+        font-family: franklin;
+    margin-bottom: 30px !important;
+    line-height: 24px;
+}
+.red-text-contacts{
+  color:#ff0000;
+  font-family:arial;
+  font-size:18px !important;
+}
+.contacts{
+  padding:130px 0 150px;
+}
+
+.contacts h1{
+    font-size: 26px;
+    color: #000 !important;
+    font-weight: 400;
+}
+.contacts p {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/*media*/
 @media screen and (max-width: 991px){
   #logo {
     height: auto;
@@ -735,6 +865,9 @@ p.callback-text-center {
     margin-left: 15px;
 }
   .wrapper{
+    width: auto;
+  }
+  .navigation{
     width: auto;
   }
 
@@ -865,6 +998,10 @@ margin: 0 0 5px;
     text-align: center;
 }
 }
-
-
+.information p {
+  text-align:center;
+}
+.information h2{
+  text-align: center;
+}
 }
