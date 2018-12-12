@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+	<title>Ремонт гидроблока АКПП</title>
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link href="assets/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+</head>
+<body>
+	<div id="joomly-callback" style="">
+		<div class="joomly-callback-caption">
+			<div id="joomly-callback-cap"><h4 class="text-center">Заказ обратного звонка</h4></div><div class="joomly-callback-closer"><i id="joomly-callback-close" class="fa fa-close fa-1x"></i></div>
+		</div>
+		<div class="joomly-callback-body">
+			<form id="reg_form" class="submission style" style="text/css" action="#index.php?option=com_joomly_callback" method="post" enctype="multipart/form-data">
+				<div class="form  form-center">
+					<div class="">
+						<p class="callback-text-center">Оставьте свой телефон и мы перезвоним в удобное для вас время!</p>
+													<div class="joomly-callback-div">
+								<input type="text" placeholder="Имя*" name="name" id="name-joomly-callback" required="" value="">
+							</div>
+							
+						<div class="joomly-callback-div">
+							<input type="tel" pattern="(\+?\d[- .()]*){5,13}" placeholder="Телефон*" name="phone" id="phone-joomly-callback" required="" value="">
+						</div>
+						<div class="joomly-callback-div" style="">
+							<label style="display:inline-block;">Время звонка</label>
+							<div style="display:inline-block;">
+								<select id="time-today" name="time-today">
+									  <option value="Сейчас">Сейчас</option>
+																	<option value="13:30">13:30</option>	
+																	<option value="14:00">14:00</option>	
+																	<option value="14:30">14:30</option>	
+																	<option value="15:00">15:00</option>	
+																	<option value="15:30">15:30</option>	
+																	<option value="16:00">16:00</option>	
+																	<option value="16:30">16:30</option>	
+																	<option value="17:00">17:00</option>	
+																	<option value="17:30">17:30</option>	
+																	<option value="18:00">18:00</option>	
+																	<option value="18:30">18:30</option>	
+																	<option value="19:00">19:00</option>	
+																	<option value="19:30">19:30</option>	
+																	<option value="20:00">20:00</option>	
+																</select>
+								<select id="time-any" name="time-any" style="display:none;">
+																	<option value="10:00">10:00</option>	
+																	<option value="10:30">10:30</option>	
+																	<option value="11:00">11:00</option>	
+																	<option value="11:30">11:30</option>	
+																	<option value="12:00">12:00</option>	
+																	<option value="12:30">12:30</option>	
+																	<option value="13:00">13:00</option>	
+																	<option value="13:30">13:30</option>	
+																	<option value="14:00">14:00</option>	
+																	<option value="14:30">14:30</option>	
+																	<option value="15:00">15:00</option>	
+																	<option value="15:30">15:30</option>	
+																	<option value="16:00">16:00</option>	
+																	<option value="16:30">16:30</option>	
+																	<option value="17:00">17:00</option>	
+																	<option value="17:30">17:30</option>	
+																	<option value="18:00">18:00</option>	
+																	<option value="18:30">18:30</option>	
+																	<option value="19:00">19:00</option>	
+																	<option value="19:30">19:30</option>	
+																	<option value="20:00">20:00</option>	
+																</select>
+								<select id="day" name="day">
+									  <option value="Сегодня">Сегодня</option>
+																	<option value="Понедельник">Понедельник</option>
+																			<option value="Среда">Среда</option>
+																			<option value="Четверг">Четверг</option>
+																			<option value="Пятница">Пятница</option>
+																			<option value="Суббота">Суббота</option>
+																			<option value="Воскресенье">Воскресенье</option>
+</select>
+							</div>	
+						</div>	
+							
+						<input type="hidden" name="page" value="/">
+						<input type="hidden" name="created_at" value="2018-12-04 13:21:46">	
+						<input type="hidden" name="title_name" value="Заказ обратного звонка">		
+					</div>
+				</div>
+				<div>
+					<button class="button-joomly-callback-lightbox" type="submit" value="save" id="button-joomly-callback-lightbox">Отправить</button>
+				</div>
+					<input type="hidden" name="option" value="com_joomlycallback">
+					<input type="hidden" name="task" value="add.save">
+					<input type="hidden" name="c4feaecc726396c56ec61d56ae396d2c" value="1">			</form>
+		
+		</div>	
+	</div>
+	<div id="logo" class="logo">
+		<div class="wrapper">
+		<div class="container">
+			<div class="row">
+			<div class="col-lg-6">
+				<div class="left-sec">
+				<a href="#" clas="styling">
+					<img src="assets/images/header-logo.png" alt="logo" class="">
+					<p class="display-style">
+						<span>Автомат транс сервис</span><br>
+						Aвтосервис по ремонту акпп в москве
+					</p>
+				</a>
+				</div>
+				</div>
+				<div class="col-lg-6">
+			 <div class="right-sec">
+			 		<p>
+			 			<span class="topPhone"><b>8-499-394-14-22</b></span><br>
+						<span class="joomly-callback">Обратный звонок</span>
+					</p>
+					<div class="search mod_search63">
+	<form action="/" method="post" class="form-inline">
+		 <input name="searchword" id="mod-search-searchword" maxlength="200" class="inputbox search-query" type="search" size="20" placeholder="Поиск...">		<input type="hidden" name="task" value="search">
+		<input type="hidden" name="option" value="com_search">
+		<input type="hidden" name="Itemid" value="435">
+	</form>
+</div>
+
+					<ul class="nostyletype">
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="about.html">О компании</a></li>
+						<li><a href="contacts.html">Контакты</a></li>
+					</ul>
+
+				</div>
+</div>
+			</div>
+		</div>
+</div>
+</div>
+<div id="header-menu">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 left-side"  onclick="stateChange()">
+
+				<p class="text-right">Выберите ваш автомобиль<img src="assets/images/menu-open-icon.png" alt="" class="img-active"></p>
+				
+			</div>
+			<div id="menu-tab1" class="menu-tab">
+				<div class="wrapper">
+					<div>
+						<img src="assets/images/acura.png" alt="">
+						
+						<a href="#">Acura</a>
+					</div><!-- 
+				 --><div>
+						<img src="assets/images/audi.png" alt="">
+						
+						<a href="#">Audi</a>
+					</div><!-- 
+				 --><div>
+						<img src="assets/images/bentley.png" alt="">
+						<a href="#">Bentley</a>
+					</div><!-- 
+				 --><div>
+						<img src="assets/images/bmw.png" alt="">
+						<a href="#">BMW</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/cadillac.png" alt="">
+						<a href="#">Cadillac</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/chevrolet.png" alt="">
+						<a href="#">Chevrolet</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/chrysler.png" alt="">
+						<a href="#">Chrysler</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/citroen.png" alt="">
+						<a href="#">Citroen</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/daewoo.png" alt="">
+						<a href="#">Daewoo</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/dodge.png" alt="">
+						<a href="/dodge">Dodge</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/fiat.png" alt="">
+						<a href="#">Fiat</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/ford.png" alt="">
+						<a href="#">Ford</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/honda.png" alt="">
+						<a href="#">Honda</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/hyundai.png" alt="">
+						<a href="#">Hyundai</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/infiniti.png" alt="">
+						<a href="#">Infiniti</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/jaguar.png" alt="">
+						<a href="#">Jaguar</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/jeep.png" alt="">
+						<a href="#">Jeep</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/kia.png" alt="">
+						<a href="#">KIA</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/land-rover.png" alt="">
+						<a href="#">Land Rover</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/lexus.png" alt="">
+						<a href="#">Lexus</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/mazda.png" alt="">
+						<a href="#">Mazda</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/mercedes.png" alt="">
+						<a href="#">Mercedes</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/mitsubishi.png" alt="">
+						<a href="#">Mitsubishi</a>
+					</div><!-- 
+				 --><div>
+						<img src="assets/images/nissan.png" alt="">
+						<a href="#">Nissan</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/opel.png" alt="">
+						<a href="#">Opel</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/peugeot.png" alt="">
+						<a href="#">Peugeot</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/porsche.png" alt="">
+						<a href="#">Porsche</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/renault.png" alt="">
+						<a href="#">Renault</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/saab.png" alt="">
+						<a href="#">Saab</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/skoda.png" alt="">
+						<a href="#">Skoda</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/ssangyong.png" alt="">
+						<a href="#">Ssang Yong</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/subaru.png" alt="">
+						<a href="#">Subaru</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/suzuki.png" alt="">
+						<a href="#">Suzuki</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/toyota.png" alt="">
+						<a href="#">Toyota</a>
+					</div><!-- 
+					 --><div>
+						<img src="assets/images/volkswagen.png" alt="">
+						<a href="#">Volkswagen</a>
+					</div><!-- 
+				 --><div>
+						<img src="assets/images/volvo.png" alt="">
+						<a href="#">Volvo</a>
+					</div>
+				</div>
+				<div class="menu-tab-close menu-tab-close-black"></div>
+			</div>
+			<div class="col-lg-6 right-side" onclick="stateChange2()">
+				<p>Наши услуги<img src="assets/images/menu-open-icon.png" alt="" class="img-fluid img2-active"></p>
+					
+			</div>
+			<div id="menu-tab2" class="menu-tab">
+				<div class="wrapper">
+					<a href="#">Диагностика АКПП</a><br>
+					<a href="#">Ремонт АКПП</a><br>
+					<a href="#">Замена АКПП</a><br>
+					<a href="#">Новые АКПП</a><br>
+					<a href="#">Восстановленные АКПП</a><br>
+					<a href="#">Охлаждение АКПП</a><br>
+					<a href="#">Замена масла в АКПП</a><br>
+					<a href="#">Ремонт гидроблока АКПП</a><br>
+					<a href="#">Ремонт DSG коробок</a><br>
+					<a href="#">Ремонт DCT коробок</a><br>
+					<a href="#">Ремонт вариатора</a><br>
+                    <a href="#">Ремонт МКПП</a><br>
+                    <a href="#">Ремонт раздаточных коробок</a><br>
+                    <a href="#">Выкуп неисправных АКПП</a><br>
+				</div>
+				<div class="menu-tab-close menu-tab-close-white"></div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+
+<nav class="navigation">
+				
+<style>
+	.breadcrumb li:first-child span.icon-location{
+		    padding-right: 20px;
+	}
+</style>
+<ul class="breadcrumb">
+			<li class="active">
+			<span class="divider icon-location"></span>
+		</li>
+	
+				<li >
+									<a href="#" class="pathway"><span>Главная</span></a>
+				
+									<span class="divider">
+						&gt;					</span>
+								
+			</li>
+					<li class="active">
+				<span>
+					 Ремонт гидроблока АКПП				</span>
+				
+			</li>
+		</ul>
+
+			</nav>
+
+<div class="content">
+	<div class="banner">
+		<div class="wrapper">
+			<img src="assets/images/banner5.png" alt="">
+		</div>
+	</div>
+	<div class="article">
+		<div class="wrapper">
+			<h2>РЕМОНТ ГИДРОБЛОКА АКПП - “АВТОМАТ ТРАНС СЕРВИС“</h2>
+			<p style="text-align:justify;">Ремонт гидроблока АКПП в Москве по низким ценам только в нашем автосервисе!</p>
+			<p style="text-align:justify;">Ремонт гидроблока АКПП должны выполнять квалифицированные специалисты. 
+      <a href="http://%D0%B0%D0%BA%D0%BF%D0%BF%D0%BC%D1%81%D0%BA.%D1%80%D1%84/">“Автомат Транс Сервис“</a>  предлагает ремонт гидроблока АКПП в Москве по самым низким ценам. Оперативно и качественно проведем ремонт гидроблоков АКПП.</p>
+      <p style="text-align:justify;">Гидравлическая клапанная плита, которую, также называют гидроблоком - это самая сложная часть АКПП и, в принципе, всего автомобиля. Её составляющие: плита из металла, большое количество каналов, клапанов и регуляторов между ними. Этот узел отвечает за переключение передач во время движения, механизм очень точный и сложный, поэтому его поломка влечёт за собой большие проблемы.</p>
+      <p style="text-align:justify;">Компания по ремонту АКПП машин «Авто Транс Сервис» осуществит качественный и быстрый ремонт гидроблока трансмиссии. Выполнять такую работу может только специалист высшего уровня, поэтому, не рекомендуется заниматься починкой гидроблока самостоятельно дома. Помимо специальных инструментов и умений, которыми должен владеть мастер, необходимо обеспечить чистоту пространства для ремонта.</p>
+      <p style="text-align:justify;">Есть много причин, которые могут послужить неисправной работе гидроблока. К ним относятся: обслуживание низкого качества (то есть, вы обращались ранее за помощью в автосервисы, где была нарушена работоспособность детали); АКПП перегрелась (в этом виноват охлаждающий элемент, в таком случае необходима дополнительная прочистка этого компонента); контакты электро-регуляторов окислились; электро-регулятор (один или несколько) вышел из строя; внутрь трансмиссии, минуя фильтр, прошла грязь, герметик, стружка и т.д.; трансмиссионное масло плохого качества.</p>
+      <p style="text-align:justify;">Наша компания проводит тщательную диагностику перед самим ремонтом, мы сообщаем вам причину поломки и согласовываем новые детали, если такие необходимо установить в автомобиль.
+</p>
+<p style="text-align:justify;">«Автомат Транс Сервис» может предоставить клиенту такие услуги, как: снятие гидравлической клапанной плиты, её установка; мойка рабочего пространства с помощью щелочей и кислот; проверка работоспособности, проходимости клапанов; ремонт деталей, их восстановление, замена неисправных клапанов; замена клапанов, которые находятся под постоянным давлением.
+</p>
+	</div>
+</div>
+	
+
+
+		<div class="prices">
+			<div class="wrapper">
+				<h2>СТОИМОСТЬ РЕМОНТА ГИДРОБЛОКА</h2>
+	<table class="table">
+        <tbody><tr>
+          <td>Наименование услуги</td>
+          <td>Цена</td>
+        </tr>
+        <tr>
+          <td>Электронная диагностика</td>
+          <td>700 руб</td>
+        </tr>
+        <tr>
+          <td>Механическая диагностика</td>
+          <td>800 руб</td>
+        </tr>
+      </tbody></table>
+      <h2>востановленные гидроблока</h2>
+      <table class="table">
+        <tbody><tr>
+          <td>Наименование услуги</td>
+          <td>Цена</td>
+        </tr>
+        <tr>
+          <td>Электронная диагностика</td>
+          <td>700 руб</td>
+        </tr>
+        <tr>
+          <td>Механическая диагностика</td>
+          <td>800 руб</td>
+        </tr>
+      </tbody></table>
+      <h2>Цены на новые гидроблоки</h2>
+      <table class="table">
+        <tbody><tr>
+          <td>Наименование услуги</td>
+          <td>Цена</td>
+        </tr>
+        <tr>
+          <td>Электронная диагностика</td>
+          <td>700 руб</td>
+        </tr>
+        <tr>
+          <td>Механическая диагностика</td>
+          <td>800 руб</td>
+        </tr>
+      </tbody></table>
+			</div>
+		</div>
+<div class="call-btn">
+					
+	<div>
+		<button class="joomly-callback" type="submit" value="save" id="button-joomly-callback-form">Заказать звонок</button>
+	</div>
+	
+
+
+
+
+
+				</div>
+				<div id="footer">
+					<div class="footer-menu">
+						<div class="container" >
+							<div class="row">
+							<div class="col-lg-8">
+								<a href="#">
+					<img src="assets/images/footer-logo.png" alt="logo">
+					<p>
+						<span>Автомат транс сервис</span><br>
+						Автосервис по ремонту акпп в москве
+					</p>
+				</a>
+							</div>
+							<div class="col-lg-4">
+								<div class="row"><div class="col-lg-6 crutch">
+								<div class="list">
+									<ul>
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+								</div>
+								</div>
+								<div class="col-lg-6 text-center crutch">
+								<div class="bottomaddress">
+									
+					<span class="bottomPhone">8-499-394-14-22</span><br>
+					<span class="bottomPhone">8-965-119-40-03</span>
+					<span class="joomly-callback special">Обратный звонок</span><br>
+					<span>
+						<span>г. Москва</span>,<br>
+						<span>Кольская 12, стр. 5</span><br>
+					</span>
+					<span>с 09.00 до 21:00</span>
+					
+				</div>
+				</div>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./assets/js/bootstrap/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script>
+	$(".left-side").click(function(){
+  $(".img-active").toggleClass("active");
+});
+
+</script>
+<script>
+	$(".right-side").click(function(){
+  $(".img2-active").toggleClass("active");
+});
+
+</script>
+<script>
+	$(".menu-tab-close").click(function(){
+		$(".img-active").toggleClass("active");
+	});
+</script>
+
+<script>
+	
+function stateChange() {
+  var obj = document.getElementById('menu-tab1');
+ 
+  obj.style.display = 
+      (obj.style.display == "block" ?
+      "none" : "block");
+
+}
+
+
+
+
+</script>
+<script>
+	
+function stateChange2() {
+  var obj = document.getElementById('menu-tab2');
+ 
+  obj.style.display = 
+      (obj.style.display == "block" ?
+      "none" : "block");
+
+}
+
+
+
+
+</script>
+<script>
+	$('.menu-tab-close').click(function(){
+
+	$(this).closest('.menu-tab').hide();
+});
+</script>
+
+<script>
+	$(".works div div").click(function(e) {
+  e.preventDefault();
+  $(".works div div").removeClass('active');
+  $(this).addClass('active');
+})
+</script>
+
+<script>
+window.addEventListener('load', lightbox, false);
+function lightbox(){			
+	var opener1 = Array.prototype.slice.call(document.getElementsByClassName("joomly-callback"));
+	var opener2 = Array.prototype.slice.call((document.getElementsByClassName("joomly-callback")));
+	var opener = opener1.concat(opener2);
+	for (var i=0; i < opener.length; i++) {
+
+		opener[i].onclick = function(){
+			
+			var lightbox = document.getElementById("joomly-callback"),
+				dimmer = document.createElement("div"),
+				close = document.getElementById("joomly-callback-close");
+			
+			dimmer.className = 'dimmer';
+			
+			dimmer.onclick = function(){
+				lightbox.parentNode.removeChild(dimmer);			
+				lightbox.style.visibility = 'hidden';
+			};
+			
+			close.onclick = function(){
+				lightbox.parentNode.removeChild(dimmer);			
+				lightbox.style.visibility = 'hidden';
+			};
+	
+			document.body.appendChild(dimmer);
+			document.body.appendChild(lightbox);
+			var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+			lightbox.style.visibility = 'visible';
+			if (window.innerHeight > lightbox.offsetHeight )
+			{
+				lightbox.style.top = scrollTop + (window.innerHeight- lightbox.offsetHeight)/2 + 'px';
+			} else
+			{
+				lightbox.style.top = scrollTop + 10 + 'px';
+			}
+			if (window.innerWidth>400){
+				lightbox.style.width = '400px';
+				lightbox.style.left = (window.innerWidth - lightbox.offsetWidth)/2 + 'px';
+			} else {
+				lightbox.style.width = (window.innerWidth - 70) + 'px';
+				lightbox.style.left = (window.innerWidth - lightbox.offsetWidth)/2 + 'px';
+			}	
+			
+			return false;
+		}
+	};	
+
+	var box_day=document.getElementById("day");
+	var box_time_today=document.getElementById("time-today");
+	var box_time_any=document.getElementById("time-any");
+	box_day.onchange=function (){
+		if ((box_day.value == 'Сегодня')||(box_day.value == 'Today')){
+			box_time_today.style.display = "inline-block";
+			box_time_any.style.display = "none";
+		} else{
+			box_time_today.style.display = "none";
+			box_time_any.style.display = "inline-block";
+		}	
+	};
+	
+	var flag = 0;
+	if (flag == 1){
+		var lightbox = document.getElementById("special-alert"),
+		dimmer = document.createElement("div"),
+		close = document.getElementById("callback-alert-close");
+		
+		dimmer.className = 'dimmer';
+		
+		dimmer.onclick = function(){
+			lightbox.parentNode.removeChild(dimmer);			
+			lightbox.style.visibility = 'hidden';
+		};
+		
+		close.onclick = function(){
+			lightbox.parentNode.removeChild(dimmer);			
+			lightbox.style.visibility = 'hidden';
+		};
+			
+		document.body.appendChild(dimmer);
+		document.body.appendChild(lightbox);
+		var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+		
+		lightbox.style.visibility = 'visible';
+		if (window.innerHeight > lightbox.offsetHeight )
+		{
+			lightbox.style.top = scrollTop + (window.innerHeight- lightbox.offsetHeight)/2 + 'px';
+		} else
+		{
+			lightbox.style.top = scrollTop + 10 + 'px';
+		}
+		
+		if (window.innerWidth>400){
+			lightbox.style.width = '400px';
+			lightbox.style.left = (window.innerWidth - lightbox.offsetWidth)/2 + 'px';
+		} else {
+			lightbox.style.width = (window.innerWidth - 70) + 'px';
+			lightbox.style.left = (window.innerWidth - lightbox.offsetWidth)/2 + 'px';
+		}	
+		
+		setTimeout(function(){remove_alert()}, 3000);
+		
+		function remove_alert()
+		{
+			lightbox.parentNode.removeChild(dimmer);			
+			lightbox.style.visibility = 'hidden';
+		}
+	}	
+}
+</script>
+</body>
+</html>
