@@ -2411,6 +2411,6 @@ input:-ms-input-placeholder      {color:white;opacity: 1;}
 	position: absolute;
 	padding: 7% 0 0 3%;
 }
-.colored_h4 > div{
+.colored_h4 > div > a > img{
   height: 80px !important;
 }
