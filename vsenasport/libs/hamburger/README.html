@@ -1,0 +1,242 @@
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <title>README.md</title>
+      </head>
+      <body>
+        <h1 id="hamburgers">Hamburgers</h1>
+<p>Hamburgers is a collection of tasty CSS-animated hamburger icons. Also included is the source as a <a href="#sass">Sass</a> library. It’s modular and customizable, so cook up your own hamburger.</p>
+<p><img src="http://i.imgur.com/t7cUjDu.gif" alt=""></p>
+<h3 id="table-of-contents">Table of Contents</h3>
+<ul>
+<li><a href="#usage">Usage</a></li>
+<li><a href="#sass">Sass</a></li>
+<li><a href="#customization">Customization</a></li>
+<li><a href="#accessibility">Accessibility</a></li>
+<li><a href="#browser-support">Browser Support</a></li>
+</ul>
+<h2 id="usage">Usage</h2>
+<ol>
+<li><p><a href="https://github.com/jonsuh/hamburgers/blob/master/dist/hamburgers.css">Download</a> and include the CSS in the <code>&lt;head&gt;</code> of your site:</p>
+<pre><code class="lang-html">&lt;link href=&quot;dist/hamburgers.css&quot; rel=&quot;stylesheet&quot;&gt;
+</code></pre>
+</li>
+<li><p>Add the base hamburger markup:</p>
+<pre><code class="lang-html">&lt;button class=&quot;hamburger&quot; type=&quot;button&quot;&gt;
+ &lt;span class=&quot;hamburger-box&quot;&gt;
+   &lt;span class=&quot;hamburger-inner&quot;&gt;&lt;/span&gt;
+ &lt;/span&gt;
+&lt;/button&gt;  
+</code></pre>
+<p>You <em>can</em> use <code>&lt;div&gt;</code>s if you insist, but they’re not <a href="#accessibility">accessible</a> as a menu button.</p>
+<pre><code class="lang-html">&lt;div class=&quot;hamburger&quot;&gt;
+ &lt;div class=&quot;hamburger-box&quot;&gt;
+   &lt;div class=&quot;hamburger-inner&quot;&gt;&lt;/div&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+</li>
+<li><p>Append the class name of the type of hamburger you’re craving:</p>
+<pre><code class="lang-html">&lt;button class=&quot;hamburger hamburger--collapse&quot; type=&quot;button&quot;&gt;
+ &lt;span class=&quot;hamburger-box&quot;&gt;
+   &lt;span class=&quot;hamburger-inner&quot;&gt;&lt;/span&gt;
+ &lt;/span&gt;
+&lt;/button&gt;
+</code></pre>
+<p>Here’s the list of hamburger-type classes you can choose from:</p>
+<pre><code>hamburger--3dx
+hamburger--3dx-r
+hamburger--3dy
+hamburger--3dy-r
+hamburger--3dxy
+hamburger--3dxy-r
+hamburger--arrow
+hamburger--arrow-r
+hamburger--arrowalt
+hamburger--arrowalt-r
+hamburger--arrowturn
+hamburger--arrowturn-r
+hamburger--boring
+hamburger--collapse
+hamburger--collapse-r
+hamburger--elastic
+hamburger--elastic-r
+hamburger--emphatic
+hamburger--emphatic-r
+hamburger--minus
+hamburger--slider
+hamburger--slider-r
+hamburger--spin
+hamburger--spin-r
+hamburger--spring
+hamburger--spring-r
+hamburger--stand
+hamburger--stand-r
+hamburger--squeeze
+hamburger--vortex
+hamburger--vortex-r
+</code></pre><p>Note: <code>-r</code> classes are reverse variants (e.g. <code>hamburger--spin</code> spins clockwise whereas <code>hamburger--spin-r</code> spins counterclockwise.</p>
+</li>
+<li><p>Trigger the active state by appending class name <code>is-active</code>:</p>
+<pre><code class="lang-html">&lt;button class=&quot;hamburger hamburger--collapse is-active&quot; type=&quot;button&quot;&gt;
+ &lt;span class=&quot;hamburger-box&quot;&gt;
+   &lt;span class=&quot;hamburger-inner&quot;&gt;&lt;/span&gt;
+ &lt;/span&gt;
+&lt;/button&gt;
+</code></pre>
+<p>Since the class name would have to be toggled via JavaScript and implementation would differ based on the context of how you plan on using the hamburger, I’m going to leave the rest up to you.</p>
+</li>
+</ol>
+<h2 id="sass">Sass</h2>
+<p><code>.scss</code> source files are available if you use Sass as your CSS precompiler. It’s customizable and modular.</p>
+<ol>
+<li><p>Hamburgers is available on <a href="https://www.npmjs.com/package/hamburgers">npm</a>, yarn and <a href="http://bower.io/search/?q=css-hamburgers">Bower</a>.</p>
+<pre><code>npm install hamburgers
+
+yarn add hamburgers
+
+bower install css-hamburgers
+</code></pre><p>Also available as a <a href="https://rubygems.org/gems/hamburgers">Ruby gem</a> to use within your Rails application—see <a href="#install-for-ruby-on-rails">below</a> for more information.</p>
+<p>Or to manually install it, <a href="https://github.com/jonsuh/hamburgers/archive/master.zip">download</a> and unzip the source files, then copy the files from the <code>_sass/hamburgers</code> directory into your project.</p>
+</li>
+<li><p>Import the <code>hamburgers.scss</code> file in your Sass manifest file:</p>
+<pre><code class="lang-scss">@import &quot;path/to/hamburgers&quot;;
+</code></pre>
+</li>
+<li><p>Customize your hamburger and/or remove any types you don’t want in <code>hamburgers.scss</code>.</p>
+</li>
+<li>Compile your Sass*, and voila!</li>
+</ol>
+<p>* Be sure to run the CSS through <a href="https://github.com/postcss/autoprefixer">Autoprefixer</a> since the Sass doesn’t account for vendor prefixes.</p>
+<h3 id="install-for-ruby-on-rails">Install for Ruby on Rails</h3>
+<ol>
+<li><p>Add Hamburgers to your Gemfile.</p>
+<pre><code>gem &#39;hamburgers&#39;
+</code></pre></li>
+<li><p>Run <code>bundle install</code>.</p>
+</li>
+<li><p>Include Hamburgers by using Sass’s native <code>@import</code>**:</p>
+<pre><code class="lang-scss">// application.scss
+@import &quot;hamburgers&quot;;
+</code></pre>
+<p>** <a href="https://blog.pivotal.io/pivotal-labs/labs/structure-your-sass-files-with-import">More information</a> on why Sass’s native <code>@import</code> + why you should ditch Sprockets directives altogether.</p>
+</li>
+</ol>
+<h2 id="customization">Customization</h2>
+<p>To override default settings, declare them before importing Hamburgers:</p>
+<pre><code class="lang-scss">$hamburger-padding-x: 20px;
+$hamburger-padding-y: 15px;
+$hamburger-types     : (collapse);
+
+@import &quot;hamburgers&quot;;
+</code></pre>
+<p>You can also create a separate file (e.g. <code>hamburgers-settings.scss</code>) with those declarations, then import it before Hamburgers:</p>
+<pre><code class="lang-scss">@import &quot;hamburgers-settings&quot;
+@import &quot;hamburgers&quot;;
+</code></pre>
+<p>Here is the full list of default settings (found in <code>_sass/hamburgers/hamburgers.scss</code>);</p>
+<pre><code class="lang-scss">$hamburger-padding-x           : 15px;
+$hamburger-padding-y           : 15px;
+$hamburger-layer-width         : 40px;
+$hamburger-layer-height        : 4px;
+$hamburger-layer-spacing       : 6px;
+$hamburger-layer-color         : #000;
+$hamburger-layer-border-radius : 4px;
+$hamburger-hover-opacity       : 0.7;
+$hamburger-active-layer-color  : $hamburger-layer-color;
+$hamburger-active-hover-opacity: $hamburger-hover-opacity;
+
+// To use CSS filters as the hover effect instead of opacity,
+// set $hamburger-hover-use-filter as true and
+// change the value of $hamburger-hover-filter accordingly.
+$hamburger-hover-use-filter   : false;
+$hamburger-hover-filter       : opacity(50%);
+$hamburger-active-hover-filter: $hamburger-hover-filter;
+
+// Remove or comment out the hamburger types you don’t want
+// or need, so they get excluded from the compiled CSS.
+$hamburger-types: (
+  3dx,
+  3dx-r,
+  3dy,
+  3dy-r,
+  3dxy,
+  3dxy-r,
+  arrow,
+  arrow-r,
+  arrowalt,
+  arrowalt-r,
+  arrowturn,
+  arrowturn-r,
+  boring,
+  collapse,
+  collapse-r,
+  elastic,
+  elastic-r,
+  emphatic,
+  emphatic-r,
+  minus,
+  slider,
+  slider-r,
+  spring,
+  spring-r,
+  stand,
+  stand-r,
+  spin,
+  spin-r,
+  squeeze,
+  vortex,
+  vortex-r
+);
+</code></pre>
+<h4 id="ems-or-rems"><code>ems</code> or <code>rems</code></h4>
+<p>Wanna work with <code>ems</code> or <code>rems</code> instead of <code>px</code>? Just change all the <code>px</code> values to the unit of your choice. Note: Be consistent (all <code>px</code> or all <code>ems</code>), otherwise it may break—the math behind the customization will fail if it attempts to perform operations with values of different units.</p>
+<h3 id="not-satisfied-">Not satisfied?</h3>
+<p>Dig into <code>_base.scss</code> or <code>types/</code> and customize to your heart’s content. Fair warning: It‘s pretty delicate and may break, especially if you tweak the animations themselves.</p>
+<h2 id="accessibility">Accessibility</h2>
+<p>Hamburger menu icons can be useful in the right context, but they’re not the most accessible.</p>
+<p>ARIA will help make it accessible to people with disabilities.</p>
+<pre><code class="lang-html">&lt;nav&gt;
+  &lt;button class=&quot;hamburger hamburger--elastic&quot; type=&quot;button&quot;
+          aria-label=&quot;Menu&quot; aria-controls=&quot;navigation&quot; aria-expanded=&quot;true/false&quot;&gt;
+    &lt;span class=&quot;hamburger-box&quot;&gt;
+      &lt;span class=&quot;hamburger-inner&quot;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/button&gt;
+
+  &lt;div id=&quot;navigation&quot;&gt;
+    &lt;!--navigation goes here--&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+</code></pre>
+<p>You will need JavaScript to toggle between <code>aria-expanded</code> attribute being set to <code>true</code> and <code>false</code>, as this will indicate to visually impaired users whether the menu is opened or closed.</p>
+<p>The hamburger button belongs <strong>inside</strong> the <code>&lt;nav&gt;</code> so that assistive technologies will be able to locate the navigation, and to allow these users to easily locatate the hamburger button, without having to search up and down the DOM, once they realize they&#39;ve found themselves in an empty navigation.</p>
+<p>If you insist on using <code>&lt;div&gt;</code>s, by default they’re not focusable (i.e. via keyboard or assistive technology). Add the <code>tabindex</code> attribute alongside ARIA. You will also need to recreate expected keyboard functionality for these <code>&lt;div&gt;</code>s. Using JavaScript, you will need to make sure that both <kbd>Space</kbd> and <kbd>Enter</kbd> will toggle the hamburger states.</p>
+<pre><code class="lang-html">&lt;nav id=&quot;navigation&quot;&gt;
+
+  &lt;div class=&quot;hamburger hamburger--elastic&quot; tabindex=&quot;0&quot;
+       aria-label=&quot;Menu&quot; role=&quot;button&quot; aria-controls=&quot;navigation&quot; aria-expanded=&quot;true/false&quot;&gt;
+    &lt;div class=&quot;hamburger-box&quot;&gt;
+      &lt;div class=&quot;hamburger-inner&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div id=&quot;navigation&quot;&gt;
+    &lt;!--navigation goes here--&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+</code></pre>
+<p>A label will help make it more obvious that it toggles a menu.</p>
+<pre><code class="lang-html">&lt;button class=&quot;hamburger hamburger--collapse&quot; type=&quot;button&quot;&gt;
+  &lt;span class=&quot;hamburger-box&quot;&gt;
+    &lt;span class=&quot;hamburger-inner&quot;&gt;&lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&quot;hamburger-label&quot;&gt;Menu&lt;/span&gt;
+&lt;/button&gt;
+</code></pre>
+<p>Here are <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA">some</a> <a href="https://webaccessibility.withgoogle.com/course">resources</a> on <a href="http://a11yproject.com/">web</a> <a href="http://www.html5accessibility.com/">accessibility</a> and <a href="https://w3c.github.io/aria-in-html/">ARIA</a>.</p>
+<h2 id="browser-support">Browser Support</h2>
+<p>Animations use CSS3 3D transforms (<code>translate3d</code> whenever possible for GPU acceleration), which is supported by most browsers (not supported by IE9 and older and Opera Mini). For detailed browser support, check <a href="http://caniuse.com/#search=translate3d">caniuse.com</a>.</p>
+
+      </body>
+    </html>

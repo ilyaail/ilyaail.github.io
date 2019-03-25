@@ -1,0 +1,183 @@
+@import "vars";
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
+@include media-breakpoint-down(lg) {
+	
+}
+
+// ≥992px
+@include media-breakpoint-down(md) {
+
+  .fancy span:before {
+ 
+  width:100%;
+}
+.fancy span:after {
+  
+  width:100%;
+}
+.city__event{
+      background: url('../img/bg640.png') center center no-repeat;
+      background-size: cover;
+}
+.event__section{
+  padding-top: 15px;
+}
+
+.bordered__normal:after,
+.bordered:after{
+
+    
+    border-right: none;
+
+}
+.header__nav-toggle {
+    display: block;
+}
+.right-nav{
+  display: none;
+}
+button.hamburger{
+  display: block;
+  float: right;
+  z-index: 999;
+}
+.footer__item{
+  width: 100%;
+}
+.social__list{
+  padding-left: 0;
+}
+.content-image{
+      margin: 0 auto;
+}
+.content .content-overlay {
+    background: rgba(112, 26, 107, 0.3);
+    position: absolute;
+    height: 61%;
+    width: 100%;
+    left: 0;
+    top: 29%;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    overflow: hidden;
+}
+.img-section_city{
+ background: url('../img/bg640.png') center center no-repeat;
+ background-size: cover;
+}
+.img-section_city .content:first-child{
+      padding-top: 23%;
+}
+}
+
+// ≥768px
+@include media-breakpoint-down(sm) {
+
+}
+
+// ≥576px
+@include media-breakpoint-down(xs) {
+.fancy span:before,
+.fancy span:after{
+width: 100%;
+}
+.header__nav-toggle {
+    display: block;
+}
+.right-nav{
+  display: none;
+}
+button.hamburger{
+  display: block;
+  float: right;
+  z-index: 999;
+}
+.bordered__normal:after,
+.bordered:after{
+
+    
+    border-right: none;
+
+}
+.city_name{
+  font-size: 12px;
+}
+.col-xs-6{
+  width: 50% !important;
+}
+.city__event{
+      background: url('../img/bg640.png') center center no-repeat;
+      background-size: cover;
+}
+.footer__item{
+  width: 100%;
+}
+.social__list{
+  padding-left: 0;
+}
+.event_descr_title {
+    
+    font-size: 25px;
+    
+    padding-top: 15px;
+}
+.event_descr_text{
+  width: 100%;
+}
+.prev{
+  left:10%;
+  width: 20px;
+  height: 20px;
+}
+.next{
+  right:10%;
+  width: 20px;
+  height: 20px;
+}
+.subtitle{
+  font-size: 18px;
+}
+.city__name_title{
+  font-size: 25px;
+}
+.subtitle > span:before{
+      margin-left: -112%;
+    margin-top: 1.3em;
+}
+.subtitle > span:after{
+      margin-left: 5%;
+    margin-top: .0em;
+}
+}
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
+@include media-breakpoint-up(sm) {
+
+}
+
+// ≤768px
+@include media-breakpoint-up(md) {
+
+}
+
+// ≤992px
+@include media-breakpoint-up(lg) {
+
+}
+
+// ≤1200px
+@include media-breakpoint-up(xl) {
+	
+}
