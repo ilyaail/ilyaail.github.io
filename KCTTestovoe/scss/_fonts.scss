@@ -1,0 +1,6 @@
+@import "_mixins/font-face";
+
+@include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
+@include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+@include font-face("exo20", "../fonts/Exo2.0/Exo20-Regular");
+@include font-face("exo20-semibold", "../fonts/Exo2.0SemiBold/Exo20-SemiBold");

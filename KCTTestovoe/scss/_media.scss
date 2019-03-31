@@ -1,0 +1,125 @@
+@import "vars";
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
+@include media-breakpoint-down(lg) {
+	
+}
+
+// ≥992px
+@include media-breakpoint-down(md) {
+.muzhik{
+	display: none;
+}
+p.title:before{
+	display: none;
+}
+}
+
+// ≥768px
+@include media-breakpoint-down(sm) {
+
+}
+
+// ≥576px
+@include media-breakpoint-down(xs) {
+p.title{
+	    font-size: 18px;
+    padding: 15px 15px;
+}
+.form{
+	width: 100%;
+	    margin-bottom: 30px;
+}
+.submit-button{
+	width: 100%;
+}
+.custom-control-label{
+	font-size: 12px;
+    width: 250px;
+}
+.z{
+	padding-top:0;
+}
+.list-of-advantages {
+    padding-top: 50px;
+}
+.callback__block{
+	float: left;
+	text-align: left;
+}
+.callback__block_call{
+	float: left;
+}
+button.hamburger{
+	display: block;
+	float: right;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    z-index: 10;
+}
+.menu{
+	display: none;
+}
+.mobile-menu__item{
+	display: block;
+	    padding-top: 75px;
+}
+li.menu__item-list{
+	    padding-left: 0;
+    margin-bottom: 0;
+	display: block;
+	  padding-bottom: 4px;
+color:#fff;
+
+}
+li.menu__item-list a{
+	color: #fff;
+}
+.navbar-customize{
+	background:transparent;
+}
+.header__nav {
+  
+    -webkit-animation: fadeIn .2s ease-in-out;
+    animation: fadeIn .2s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: -15px;
+    left: auto;
+    max-width: 260px;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.9);
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    -webkit-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+        z-index: 9;
+}
+}
+/*==========  Mobile First  ==========*/
+
+// ≤576px
+@include media-breakpoint-up(sm) {
+
+}
+
+// ≤768px
+@include media-breakpoint-up(md) {
+
+}
+
+// ≤992px
+@include media-breakpoint-up(lg) {
+
+}
+
+// ≤1200px
+@include media-breakpoint-up(xl) {
+	
+}
