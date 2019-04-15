@@ -1,0 +1,7 @@
+@import "_mixins/font-face";
+
+@include font-face("roboto-example", "../fonts/RobotoRegular/RobotoRegular");
+@include font-face("roboto-example", "../fonts/RobotoBold/RobotoBold", bold);
+@include font-face("Righteous", "../fonts/Righteous/Righteous-regular");
+@include font-face("Orbitron", "../fonts/Orbitron/Orbitron-Regular");
+@include font-face("Lato", "../fonts/Lato/Lato-Regular");
