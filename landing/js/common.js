@@ -34,4 +34,8 @@ $('.testimonials__slider').slick({
     }
     ]
 });
+jQuery(function($){
+   $("#phone_input").mask("+79 (999) 9999");
 });
+});
+
