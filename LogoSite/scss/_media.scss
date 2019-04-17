@@ -10,21 +10,48 @@
 
 // ≥992px
 @include media-breakpoint-down(md) {
-.footer:before{
-	height: 63px;
-}
+
 }
 
 // ≥768px
 @include media-breakpoint-down(sm) {
-
+.text{
+	font-size: 1rem;
+}
+.testimonials__slider_name .name{
+	text-align: center;
+}
+.tel{
+	    padding-left: 16px;
+    font-size: 1.4rem;
+}
+.contacts__txt{
+	text-align: center;
+}
+.contacts__img{
+	text-align: center;
+	float: none;
+}
+.contacts__img img{
+	margin: 0 auto;
+}
+ul.services-features.td-fix-index{
+	text-align: left;
+}
+.mauto{
+	text-align: center;
+}
 }
 
 // ≥576px
 @include media-breakpoint-down(xs) {
-.footer:before{
-	height: 33px;
+.logo__link img {
+    width: 70px;
 }
+.header__phone{
+	font-size: 1.5rem;
+}
+
 }
 
 
