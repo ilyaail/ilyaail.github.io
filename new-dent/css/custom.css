@@ -334,7 +334,7 @@ p.about_text{
 
 /*price styles*/
 .price_block{
-	background: url('/img/price_bg.png') no-repeat center 50%;
+	background: url('../img/price_bg.png') no-repeat center 50%;
 	-webkit-background-size: cover;
 	background-size: cover;
 	padding: 1.875rem 8.5rem;
