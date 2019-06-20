@@ -235,7 +235,7 @@ background: #3d3d3d;
 
 /*promotion styles*/
 .promotion{
-	background: url('/img/promotion_bg.png') no-repeat center 50%;
+	background: url('../img/promotion_bg.png') no-repeat center 50%;
 	-webkit-background-size: cover;
 	background-size: cover;
 	padding: 1.875rem 8.5rem;
