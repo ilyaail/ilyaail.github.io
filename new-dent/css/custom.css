@@ -464,7 +464,7 @@ p.about_text{
 }
 li.contacts_phone_list-item:first-child:before {
     content: '';
-    background: url(/img/phone-call.png) no-repeat center center;
+    background: url(../img/phone-call.png) no-repeat center center;
     width: 25px;
     height: 25px;
     display: inline-block;
