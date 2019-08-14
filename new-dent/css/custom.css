@@ -498,6 +498,7 @@ li.contacts_phone_list-item:nth-child(3){
     display: inline-block;
     font-size: 0;
     float: right;
+    position: relative;
     box-shadow: 0px 10px 35px rgba(0,0,0,0.5);
 }
 .map-wrap:before {
