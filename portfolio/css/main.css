@@ -1,0 +1,106 @@
+@import url(../libs/bootstrap-grid/bootstrap-grid.css);
+@font-face {
+  font-family: "SourceSansPro";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/SourceSansPro/sourcesanspro.eot");
+  src: url("../fonts/SourceSansPro/sourcesanspro.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansPro/sourcesanspro.woff") format("woff"), url("../fonts/SourceSansPro/sourcesanspro.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "SourceSansProBold";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/SourceSansProBold/sourcesansprobold.eot");
+  src: url("../fonts/SourceSansProBold/sourcesansprobold.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansProBold/sourcesansprobold.woff") format("woff"), url("../fonts/SourceSansProBold/sourcesansprobold.ttf") format("truetype"); }
+@font-face {
+  font-family: "SourceSansProExtraLight";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/SourceSansProExtraLight/sourcesansproextralight.eot");
+  src: url("../fonts/SourceSansProExtraLight/sourcesansproextralight.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansProExtraLight/sourcesansproextralight.woff") format("woff"), url("../fonts/SourceSansProExtraLight/sourcesansproextralight.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "SourceSansProLight";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/SourceSansProLight/sourcesansprolight.eot");
+  src: url("../fonts/SourceSansProLight/sourcesansprolight.eot?#iefix") format("embedded-opentype"), url("../fonts/SourceSansProLight/sourcesansprolight.woff") format("woff"), url("../fonts/SourceSansProLight/sourcesansprolight.ttf") format("truetype"); }
+@font-face {
+  font-family: "BebasNeueBold";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/BebasNeue/BebasNeueBold.eot");
+  src: url("../fonts/BebasNeue/BebasNeueBold.eot?#iefix") format("embedded-opentype"), url("../fonts/BebasNeue/BebasNeueBold.woff") format("woff"), url("../fonts/BebasNeue/BebasNeue.ttf") format("truetype"); }
+@font-face {
+  font-family: "MyriadPro";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/MyriadPro/MyriadPro-Regular.eot");
+  src: url("../fonts/MyriadPro/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro/MyriadPro-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "MyriadProBold";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/MyriadProBold/MyriadPro-Bold.eot");
+  src: url("../fonts/MyriadProBold/MyriadPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadProBold/MyriadPro-Bold.woff") format("woff"), url("../fonts/MyriadProBold/MyriadPro-Bold.ttf") format("truetype"); }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1; }
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: #666; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: #666; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: "SourceSansProBold", sans-serif;
+  overflow-x: hidden; }
+ul{
+    list-style-type: none;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+.text-center {
+  text-align: center; }
+
+::-moz-selection {
+  background-color: orange;
+  color: #fff; }
+
+::selection {
+  background-color: orange;
+  color: #fff; }
