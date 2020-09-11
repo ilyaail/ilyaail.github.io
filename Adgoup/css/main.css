@@ -500,11 +500,15 @@ iframe{
   font-weight: 700;
   font-size: 24px;
   color: #fff;
+}.image-wrapper {
+text-align: center;
 }
 .image-wrapper img{
-  width: 100%;
+  width: auto;
   max-width: 100%;
   height: auto;
+  max-height: 300px;
+  
 }
 .submit-button.active{
     background-color: #f9fd3d;
@@ -573,6 +577,7 @@ iframe{
 .selected{
   background-color: #f9fd3d;
 }
+
 .first-team,
 .second-team{
   display: -webkit-flex;
